@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body{
+	line-height: 25px;
+	background-color: #ffffff;
+	color: #000000;
+	font-family: "ＭＳ Ｐゴシック",sans-serif;
+	font-size: 14px;
+}
+table{
+		font-size: 14px;
+	}
+div.a{
+	padding: 5px;
+	margin-bottom: 10px;
+	//border: 1px solid #333333;
+	background-color: #ffefef;
+	width:500px;
+}
+div.b{
+	padding: 5px;
+	margin-bottom: 10px;
+	//border: 1px solid #333333;
+	background-color: #f4ffff;
+	width:500px;
+}
+div.c{
+	padding: 5px;
+	margin-bottom: 10px;
+	//border: 1px solid #333333;
+	background-color: #e5ffe5;
+	width:500px;
+}
+p {
+	//line-height: 0px;
+	border-left:1px solid #ffd700; /*線の設定*/
+}
+p.p1 {
+	padding:0px 10px; /*余白の設定*/
+}
+p.p2 {
+	padding:38px 4px; /*余白の設定*/
+	border-left:1px solid #ffc0cb; /*線の設定*/
+
+}
+p.p3 {
+	padding:10px 6px; /*余白の設定*/
+}
+p.p4 {
+	padding:20px 6px; /*余白の設定*/
+	border-left:1px solid #ffc0cb; /*線の設定*/
+}
+p.p5 {
+	padding:0px 4px; /*余白の設定*/
+}
+p.p6 {
+	padding:0px 6px; /*余白の設定*/
+	border-left:1px solid #ffc0cb; /*線の設定*/
+}
+p.p7 {
+	padding:0px 10px; /*余白の設定*/
+}
+p.p8 {
+	padding:0px 10px; /*余白の設定*/
+	border-left:1px solid #ffc0cb; /*線の設定*/
+}
+p.p9 {
+	padding:0px 10px; /*余白の設定*/
+}
+p.p10 {
+	padding:0px 10px; /*余白の設定*/
+	border-left:1px solid #bbe2f1; /*線の設定*/
+
+}
+p.p11 {
+	padding:20px 6px; /*余白の設定*/
+}
+p.p12 {
+	padding:20px 6px; /*余白の設定*/
+	border-left:1px solid #bbe2f1; /*線の設定*/
+}
+p.p13 {
+	padding:0px 4px; /*余白の設定*/
+
+}
+p.p14 {
+	padding:0px 4px; /*余白の設定*/
+	border-left:1px solid #bbe2f1; /*線の設定*/
+}
+p.p15 {
+	padding:0px 10px; /*余白の設定*/
+}
+p.p16 {
+	padding:0px 10px; /*余白の設定*/
+	border-left:1px solid #bbe2f1; /*線の設定*/
+}
+p.p17 {
+	padding:0px 10px; /*余白の設定*/
+}
+p.p18 {
+	padding:0px 10px; /*余白の設定*/
+	border-left:1px solid #66cdaa; /*線の設定*/
+
+}
+p.p19 {
+	padding:0px 10px; /*余白の設定*/
+}
+input{
+	width: 47px;
+}
+input.name{
+	width: 160px;
+}
+input.button{
+	width: 30px;
+	padding: 1px;
+}
+input.updown{
+	width: 19px;
+	padding: 1px;
+}
+input.waza{
+	width: 70px;
+}
+input.jyotai{
+	width: 140px;
+}
+input.check{
+	width: 20px;
+}
+input.mega{
+	width: 70px;
+	height: 26px;
+	visibility: hidden;
+}
+
+/*-- スマホ版非表示設定  --*/
+@media screen and (max-width: 500px){
+	input.pc{
+		display:none;
+	}
+}

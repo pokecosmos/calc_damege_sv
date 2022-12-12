@@ -83,7 +83,7 @@
 
 <tr><td rowspan="2" align="center"><p class="p4">攻撃</p></td><td colspan="3">
 <table border="0">
-<td>実数値：</td><td><input type="number" value="100" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td>性格：</td><td bgcolor="#FFBEDA">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF">↓<input class="check" type="checkbox"></td></tr>
+<td>実数値：</td><td><input id="real-value-attack" type="number" value="100" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td>性格：</td><td bgcolor="#FFBEDA">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF">↓<input class="check" type="checkbox"></td></tr>
 <tr><td>努力値：</td><td><input type="number" name="d_a1" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_a1', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_a1', 252);"></td><td colspan="3">個体値：<input type="number" name="k_a1" value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_a1', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_a1', 31);"></td></tr>
 </table>
 </td>
@@ -143,7 +143,7 @@
 
 <tr><td rowspan="2" align="center"><p class="p11">HP</p></td><td>実数値：</td><td><input type="number" value="175" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td colspan="4"><input class="check" type="checkbox">残りHP指定：<input type="number" value="" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td></tr>
 <tr><td>努力値：</td><td><input type="number" name="d_h2" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_h2', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_h2', 252);"></td><td colspan="3">個体値：<input type="number" name="k_h2" value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_h2', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_h2', 31);"></td></tr>
-<tr><td rowspan="2" align="center"><p class="p12">防御</p></td><td>実数値：</td><td><input type="number" value="120" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td width="45">性格：</td><td bgcolor="#FFBEDA" width="55">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF" width="55">↓<input class="check" type="checkbox"></td></tr>
+<tr><td rowspan="2" align="center"><p class="p12">防御</p></td><td>実数値：</td><td><input id="real-value-defense" type="number" value="120" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td width="45">性格：</td><td bgcolor="#FFBEDA" width="55">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF" width="55">↓<input class="check" type="checkbox"></td></tr>
 <tr><td>努力値：</td><td><input type="number" name="d_b2" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_b2', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_b2', 252);"></td><td colspan="3">個体値：<input type="number" name="k_b2"  value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_b2', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_b2', 31);"></td></tr>
 </table>
 
@@ -191,7 +191,19 @@
 <tr><td align="center"><p class="p19">その他</p></td><td><input class="check" type="checkbox">重力</td><td><input class="check" type="checkbox">ワンダールーム</td></tr>
 </table>
 
-
+<div class="damage-area">ダメージ計算</div>
+<table border="0">
+  <tr>
+    <td align="left">
+      <input type="button" value="計算する" onclick="calcDamage()">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p id="real-value-damage" class="p18">ダメージ：</p>
+    </td>
+  </tr>
+</table>
 <hr/>
 
 </form>

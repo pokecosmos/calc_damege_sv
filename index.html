@@ -18,6 +18,7 @@
 <script type="text/javascript" src="js/check_sv.js"></script>
 <script type="text/javascript" src="js/button_sv.js"></script>
 <script type="text/javascript" src="js/syuzokuti_sv.js"></script>
+<script type="text/javascript" src="js/type_sv.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/autocomplete.js"></script>
@@ -60,8 +61,7 @@
 <td colspan="2"><input type="button" value ="技名選択" class="waza"> <select name="waza" size="1" onChange="">
 <option value="0" selected="selected">--</option>
 <option value="1">すてみタックル</option>
-</select></td>
-<td><input value="--" readonly></td></tr></tr>
+</select></td></tr></tr>
 <tr><td>
 <table border="1" id="acSwitch">
 <tr>
@@ -105,7 +105,7 @@
 <table border="0"><tr><td>
 <input type="button" value ="詳細設定を全て表示" class="jyotai"></td><td><input class="check" type="checkbox">特性なし</td><td><input class="check" type="checkbox">てだすけ</td><td><input class="check" type="checkbox">やけど</td></tr>
 <tr><td><input class="check" type="checkbox">でんそうこうげき</td><td><input class="check" type="checkbox">もえつきる</td><td><input class="check" type="checkbox">みずびたし</td><td><input class="check" type="checkbox">まほうのこな</td></tr>
-<tr><td><input class="check" type="checkbox">パワートリック</td><td><input class="check" type="checkbox">じゅうでん</td><td><input class="check" type="checkbox">ちいさくなる</td></tr>
+<tr><td><input class="check" type="checkbox">パワートリック</td><td><input class="check" type="checkbox">じゅうでん</td></tr>
 </table></p></td></tr>
 </table>
 <table border="0">
@@ -162,11 +162,11 @@
 
 <table border="0"><tr><td><p class="p15">
 <table border="0">
-<tr><td><input type="button" value ="詳細設定を全て表示" class="jyotai"></td><td><input class="check" type="checkbox">特性なし</td><td><input class="check" type="checkbox">リフレクター/オーロラベール</td></tr>
+<tr><td><input type="button" value ="詳細設定を全て表示" class="jyotai"></td><td><input class="check" type="checkbox">特性なし</td><td colspan="2"><input class="check" type="checkbox">リフレクター/オーロラベール</td></tr>
 
-<tr><td><input class="check" type="checkbox">でんそうこうげき</td><td><input class="check" type="checkbox">もえつきる</td><td><input class="check" type="checkbox">みずびたし</td></tr>
-<tr><td><input class="check" type="checkbox">でんじふゆう</td><td><input class="check" type="checkbox">はねやすめ</td><td><input class="check" type="checkbox">まほうのこな</td><td></tr>
-<tr><td><input class="check" type="checkbox">パワートリック</td><td><input class="check" type="checkbox">うちおとす</td><td colspan="2"><input class="check" type="checkbox">タールショット</td></tr>
+<tr><td><input class="check" type="checkbox">でんそうこうげき</td><td><input class="check" type="checkbox">もえつきる</td><td><input class="check" type="checkbox">みずびたし</td><td><input class="check" type="checkbox">まほうのこな</td></tr>
+<tr><td><input class="check" type="checkbox">でんじふゆう</td><td><input class="check" type="checkbox">はねやすめ</td><td><input class="check" type="checkbox">うちおとす</td><td><input class="check" type="checkbox">ちいさくなる</td></tr>
+<tr><td><input class="check" type="checkbox">パワートリック</td><td colspan="2"><input class="check" type="checkbox">タールショット</td></tr>
 </table></p></td></tr>
 </table>
 <table border="0">
@@ -182,7 +182,7 @@
 <table border="0">
 <tr><td align="center"><p class="p17">フィールド</p></td><td colspan="2"><select name="skill_b" size="1" onChange="scalc()">
 <option value="2" selected="selected">--</option>
-<option value="1">エレキフィールド　[電気技 威力1.5倍]</option><option value="2">グラスフィールド　[草技 威力1.5倍, 地震・地均し 威力0.5倍]</option><option value="3">サイコフィールド　[エスパー技 威力1.5倍, 先制技無効]</option><option value="4">ミストフィールド　[ドラゴン技 威力0.5倍]</option>
+<option value="1">エレキフィールド　[電気技 威力1.5倍]</option><option value="2">グラスフィールド　[草技 威力1.5倍, 地震・地均し 威力0.5倍]</option><option value="3">サイコフィールド　[エスパー技 威力1.5倍, 先制技 無効]</option><option value="4">ミストフィールド　[ドラゴン技 威力0.5倍]</option>
 </select></td></tr>
 <tr><td align="center"><p class="p18">天候</p></td><td colspan="2"><select name="skill_b" size="1" onChange="scalc()">
 <option value="2" selected="selected">--</option>

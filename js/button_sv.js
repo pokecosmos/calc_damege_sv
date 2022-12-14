@@ -1,133 +1,188 @@
 //メガシンカボタンの変更
-function mega_button() {
-  var p = document.nForm.elements['pokename'].value;
+function mega_button(num) {
+  if(num==1){
+    var p = document.nForm.elements['pokename_1'].value;
+  }else{
+    var p = document.nForm.elements['pokename_2'].value;
+  }
   if ((p == "ニャース") || (p == "ニャース(通常)") || (p == "ニャース(ガラル)")) {
-    visi(2, "通常", "ガラル");
+    visi(2, num, "通常", "ガラル");
   } else if ((p == "ウパー") || (p == "ウパー(通常)") || (p == "ウパー(パルデア)")) {
-    visi(2, "通常", "パルデア");
-  } else if ((p == "ケンタロス") || (p == "ケンタロス(パルデア)")) {
-    visi(1, "パルデア");
+    visi(2, num, "通常", "パルデア");
+  } else if ((p == "ケンタロス") || (p == "ケンタロス(かくとう)")|| (p == "ケンタロス(ほのお)")|| (p == "ケンタロス(みず)")) {
+    visi(3, num, "かくとう", "ほのお", "みず");
   } else if ((p == "ロトム") || (p == "ロトム(基本)") || (p == "ロトム(FC)")) {
-    visi(2, "基本", "FC");
+    visi(2, num, "基本", "FC");
   } else if ((p == "ルガルガン") || (p == "ルガルガン(真昼)") || (p == "ルガルガン(真夜中)")) {
-    visi(2, "真昼", "真夜中");
+    visi(2, num, "真昼", "真夜中");
   } else if ((p == "コオリッポ") || (p == "コオリッポ(アイス)") || (p == "コオリッポ(ナイス)")) {
-    visi(2, "アイス", "ナイス");
+    visi(2, num, "アイス", "ナイス");
   } else if ((p == "イエッサン") || (p == "イエッサン♂") || (p == "イエッサン♀")) {
-    visi(2, "♂", "♀");
+    visi(2, num, "♂", "♀");
   } else if ((p == "パフュートン") || (p == "パフュートン♂") || (p == "パフュートン♀")) {
-    visi(2, "♂", "♀");
+    visi(2, num, "♂", "♀");
   } else if ((p == "イルカマン") || (p == "イルカマン(ナイーブ)") || (p == "イルカマン(マイティ)")) {
-    visi(2, "ナイーブ", "マイティ");
+    visi(2, num, "ナイーブ", "マイティ");
   } else {
-    visi(0);
+    visi(0, num);
   }
 }
 
-function visi(num, var1, var2, var3, var4) {
-  if (num == 0) {
-    document.nForm.elements['mega0'].style.visibility = "hidden";
-    document.nForm.elements['mega1'].style.visibility = "hidden";
-    document.nForm.elements['mega2'].style.visibility = "hidden";
-    document.nForm.elements['mega3'].style.visibility = "hidden";
-  } else if (num == 1) {
-    document.nForm.elements['mega0'].value = var1;
-    document.nForm.elements['mega0'].style.visibility = "visible";
-    document.nForm.elements['mega1'].style.visibility = "hidden";
-    document.nForm.elements['mega2'].style.visibility = "hidden";
-    document.nForm.elements['mega3'].style.visibility = "hidden";
-  } else if (num == 2) {
-    document.nForm.elements['mega0'].value = var1;
-    document.nForm.elements['mega1'].value = var2;
-    document.nForm.elements['mega0'].style.visibility = "visible";
-    document.nForm.elements['mega1'].style.visibility = "visible";
-    document.nForm.elements['mega2'].style.visibility = "hidden";
-    document.nForm.elements['mega3'].style.visibility = "hidden";
-  } else if (num == 3) {
-    document.nForm.elements['mega0'].value = var1;
-    document.nForm.elements['mega1'].value = var2;
-    document.nForm.elements['mega2'].value = var3;
-    document.nForm.elements['mega0'].style.visibility = "visible";
-    document.nForm.elements['mega1'].style.visibility = "visible";
-    document.nForm.elements['mega2'].style.visibility = "visible";
-    document.nForm.elements['mega3'].style.visibility = "hidden";
-  } else if (num == 4) {
-    document.nForm.elements['mega0'].value = var1;
-    document.nForm.elements['mega1'].value = var2;
-    document.nForm.elements['mega2'].value = var3;
-    document.nForm.elements['mega3'].value = var4;
-    document.nForm.elements['mega0'].style.visibility = "visible";
-    document.nForm.elements['mega1'].style.visibility = "visible";
-    document.nForm.elements['mega2'].style.visibility = "visible";
-    document.nForm.elements['mega3'].style.visibility = "visible";
+function visi(num1, num2, var1, var2, var3, var4) {
+  if(num2 == 1){
+    if (num1 == 0) {
+      document.nForm.elements['mega0'].style.visibility = "hidden";
+      document.nForm.elements['mega1'].style.visibility = "hidden";
+      document.nForm.elements['mega2'].style.visibility = "hidden";
+      document.nForm.elements['mega3'].style.visibility = "hidden";
+    } else if (num1 == 1) {
+      document.nForm.elements['mega0'].value = var1;
+      document.nForm.elements['mega0'].style.visibility = "visible";
+      document.nForm.elements['mega1'].style.visibility = "hidden";
+      document.nForm.elements['mega2'].style.visibility = "hidden";
+      document.nForm.elements['mega3'].style.visibility = "hidden";
+    } else if (num1 == 2) {
+      document.nForm.elements['mega0'].value = var1;
+      document.nForm.elements['mega1'].value = var2;
+      document.nForm.elements['mega0'].style.visibility = "visible";
+      document.nForm.elements['mega1'].style.visibility = "visible";
+      document.nForm.elements['mega2'].style.visibility = "hidden";
+      document.nForm.elements['mega3'].style.visibility = "hidden";
+    } else if (num1 == 3) {
+      document.nForm.elements['mega0'].value = var1;
+      document.nForm.elements['mega1'].value = var2;
+      document.nForm.elements['mega2'].value = var3;
+      document.nForm.elements['mega0'].style.visibility = "visible";
+      document.nForm.elements['mega1'].style.visibility = "visible";
+      document.nForm.elements['mega2'].style.visibility = "visible";
+      document.nForm.elements['mega3'].style.visibility = "hidden";
+    } else if (num1 == 4) {
+      document.nForm.elements['mega0'].value = var1;
+      document.nForm.elements['mega1'].value = var2;
+      document.nForm.elements['mega2'].value = var3;
+      document.nForm.elements['mega3'].value = var4;
+      document.nForm.elements['mega0'].style.visibility = "visible";
+      document.nForm.elements['mega1'].style.visibility = "visible";
+      document.nForm.elements['mega2'].style.visibility = "visible";
+      document.nForm.elements['mega3'].style.visibility = "visible";
+    }
+  }else{
+      if (num1 == 0) {
+      document.nForm.elements['mega0b'].style.visibility = "hidden";
+      document.nForm.elements['mega1b'].style.visibility = "hidden";
+      document.nForm.elements['mega2b'].style.visibility = "hidden";
+      document.nForm.elements['mega3b'].style.visibility = "hidden";
+    } else if (num1 == 1) {
+      document.nForm.elements['mega0b'].value = var1;
+      document.nForm.elements['mega0b'].style.visibility = "visible";
+      document.nForm.elements['mega1b'].style.visibility = "hidden";
+      document.nForm.elements['mega2b'].style.visibility = "hidden";
+      document.nForm.elements['mega3b'].style.visibility = "hidden";
+    } else if (num1 == 2) {
+      document.nForm.elements['mega0b'].value = var1;
+      document.nForm.elements['mega1b'].value = var2;
+      document.nForm.elements['mega0b'].style.visibility = "visible";
+      document.nForm.elements['mega1b'].style.visibility = "visible";
+      document.nForm.elements['mega2b'].style.visibility = "hidden";
+      document.nForm.elements['mega3b'].style.visibility = "hidden";
+    } else if (num1 == 3) {
+      document.nForm.elements['mega0b'].value = var1;
+      document.nForm.elements['mega1b'].value = var2;
+      document.nForm.elements['mega2b'].value = var3;
+      document.nForm.elements['mega0b'].style.visibility = "visible";
+      document.nForm.elements['mega1b'].style.visibility = "visible";
+      document.nForm.elements['mega2b'].style.visibility = "visible";
+      document.nForm.elements['mega3b'].style.visibility = "hidden";
+    } else if (num1 == 4) {
+      document.nForm.elements['mega0b'].value = var1;
+      document.nForm.elements['mega1b'].value = var2;
+      document.nForm.elements['mega2b'].value = var3;
+      document.nForm.elements['mega3b'].value = var4;
+      document.nForm.elements['mega0b'].style.visibility = "visible";
+      document.nForm.elements['mega1b'].style.visibility = "visible";
+      document.nForm.elements['mega2b'].style.visibility = "visible";
+      document.nForm.elements['mega3b'].style.visibility = "visible";
+    }
   }
 }
 
 //メガシンカボタン
-function megachange(num) {
-  var p = document.nForm.elements['pokename'].value;
+function megachange(num, num2) {
+  var p;
+  if(num2==1){
+    p = document.nForm.elements['pokename_1'].value;
+  }else{
+    p = document.nForm.elements['pokename_2'].value;
+  }
   if ((p == "ニャース") || (p == "ニャース(通常)") || (p == "ニャース(ガラル)")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(ガラル\)/g, "");
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(通常\)/g, "");
-      document.nForm.elements['pokename'].value = "" + document.nForm.elements['pokename'].value + "(通常)";
+      p = p.replace(/\(ガラル\)/g, "");
+      p = p.replace(/\(通常\)/g, "");
+      p = "" + p + "(通常)";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(ガラル\)/g, "");
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(通常\)/g, "");
-      document.nForm.elements['pokename'].value = "" + document.nForm.elements['pokename'].value + "(ガラル)";
+      p = p.replace(/\(ガラル\)/g, "");
+      p = p.replace(/\(通常\)/g, "");
+      p = "" + p + "(ガラル)";
     }
   } else if ((p == "ウパー") || (p == "ウパー(通常)") || (p == "ウパー(パルデア)")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(パルデア\)/g, "");
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(通常\)/g, "");
-      document.nForm.elements['pokename'].value = "" + document.nForm.elements['pokename'].value + "(通常)";
+      p = p.replace(/\(パルデア\)/g, "");
+      p = p.replace(/\(通常\)/g, "");
+      p = "" + p + "(通常)";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(パルデア\)/g, "");
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(通常\)/g, "");
-      document.nForm.elements['pokename'].value = "" + document.nForm.elements['pokename'].value + "(パルデア)";
+      p = p.replace(/\(パルデア\)/g, "");
+      p = p.replace(/\(通常\)/g, "");
+      p = "" + p + "(パルデア)";
     }
-  } else if ((p == "ケンタロス") || (p == "ケンタロス(パルデア)")) {
+  } else if ((p == "ケンタロス") || (p == "ケンタロス(かくとう)")|| (p == "ケンタロス(ほのお)")|| (p == "ケンタロス(みず)")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(パルデア\)/g, "");
-      document.nForm.elements['pokename'].value = document.nForm.elements['pokename'].value.replace(/\(通常\)/g, "");
-      document.nForm.elements['pokename'].value = "" + document.nForm.elements['pokename'].value + "(パルデア)";
+      p = "ケンタロス(かくとう)";
+    } else if (parseInt(num) == 1) {
+      p = "ケンタロス(ほのお)";
+    } else if (parseInt(num) == 2) {
+      p = "ケンタロス(みず)";
     }
   } else if ((p == "ロトム") || (p == "ロトム(基本)") || (p == "ロトム(FC)")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = "ロトム(基本)";
+      p = "ロトム(基本)";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = "ロトム(FC)";
+      p = "ロトム(FC)";
     }
   } else if ((p == "ルガルガン") || (p == "ルガルガン(真昼)") || (p == "ルガルガン(真夜中)")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = "ルガルガン(真昼)";
+      p = "ルガルガン(真昼)";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = "ルガルガン(真夜中)";
+      p = "ルガルガン(真夜中)";
     }
   } else if ((p == "コオリッポ") || (p == "コオリッポ(アイス)") || (p == "コオリッポ(ナイス)")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = "コオリッポ(アイス)";
+      p = "コオリッポ(アイス)";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = "コオリッポ(ナイス)";
+      p = "コオリッポ(ナイス)";
     }
   } else if ((p == "イエッサン") || (p == "イエッサン♂") || (p == "イエッサン♀")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = "イエッサン♂";
+      p = "イエッサン♂";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = "イエッサン♀";
+      p = "イエッサン♀";
     }
   } else if ((p == "パフュートン") || (p == "パフュートン♂") || (p == "パフュートン♀")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = "イエッサン♂";
+      p = "イエッサン♂";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = "イエッサン♀";
+      p = "イエッサン♀";
     }
   } else if ((p == "イルカマン") || (p == "イルカマン(ナイーブ)") || (p == "イルカマン(マイティ)")) {
     if (parseInt(num) == 0) {
-      document.nForm.elements['pokename'].value = "イルカマン(ナイーブ)";
+      p = "イルカマン(ナイーブ)";
     } else if (parseInt(num) == 1) {
-      document.nForm.elements['pokename'].value = "イルカマン(マイティ)";
+      p = "イルカマン(マイティ)";
     }
+  }
+  if(num2==1){
+    document.nForm.elements['pokename_1'].value = p;
+  }else{
+    document.nForm.elements['pokename_2'].value = p;
   }
   setpokemon();
 }

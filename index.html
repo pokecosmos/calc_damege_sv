@@ -47,7 +47,13 @@
 <p class="p1">
 <table border="0" width="500">
 <tr><td width="160"><input width="300" type="search" id ="pokename_1" name = "pokename_1" class="name" value="" placeholder="ポケモン名" onblur="setpokemon(1)"></td><td>
-<input type="button" class="mega" name="mega0" value="通常" onclick="megachange(0)">0<input type="button" class="mega" name="mega1" value="メガ" onclick="megachange(1)">1<input type="button" class="mega" name="mega2" value="通常" onclick="megachange(2)">2<input type="button" class="mega" name="mega3" value="通常" onclick="megachange(3)">3</td></tr>
+<table border="0"><tr><td>
+<input type="button" class="mega" name="mega0" value="通常" onclick="megachange(0,1)"></td><td>
+<input type="button" class="mega" name="mega1" value="メガ" onclick="megachange(1,1)"></td><td>
+<input type="button" class="mega" name="mega2" value="通常" onclick="megachange(2,1)"></td><td>
+<input type="button" class="mega" name="mega3" value="通常" onclick="megachange(3,1)"></td></tr>
+</table>
+</td></tr>
 </table>
 <table border="0" width="500">
 <tr><td> Lv. <input type="number" name="L0" value="50" min="1" max="100" step="1"  onclick="" onblur=""><input type="button" class="button" value ="50" onclick="setvalue('L0', 50);"><input type="button" class="button" value ="100" onclick="setvalue('L0', 100);">
@@ -127,8 +133,13 @@
 <p class="p1">
 <table border="0" width="500">
 <tr><td width="160"><input width="300" type="search" id ="pokename_2" name = "pokename_2" class="name" value="" placeholder="ポケモン名" onblur="setpokemon(2)"></td><td>
-<input type="button" class="mega" name="mega0b" value="通常" onclick="">0<input type="button" class="mega" name="mega1b" value="メガ" onclick="">1<input type="button" class="mega" name="mega2b" value="通常" onclick="">2<input type="button" class="mega" name="mega3b" value="通常" onclick="">3</td></tr>
-</table>
+<table border="0"><tr><td>
+<input type="button" class="mega" name="mega0b" value="通常" onclick="megachange(0,2)"></td><td>
+<input type="button" class="mega" name="mega1b" value="メガ" onclick="megachange(1,2)"></td><td>
+<input type="button" class="mega" name="mega2b" value="通常" onclick="megachange(2,2)"></td><td>
+<input type="button" class="mega" name="mega3b" value="通常" onclick="megachange(3,2)"></td><td>
+</td></tr></table>
+</td></tr></table>
 <table border="0" width="500">
 <tr><td> Lv. <input type="number" name="L1" value="50" min="1" max="100" step="1"  onclick="" onblur=""><input type="button" class="button" value ="50" onclick="setvalue('L1', 50);"><input type="button" class="button" value ="100" onclick="setvalue('L1', 100);">
 </td><td>タイプ：<input value="--"> <input value="--"></td><td><input class="check" type="checkbox">テラスタル：<select name="Terastal_p2" size="1" onChange="">
@@ -139,7 +150,7 @@
 <table border="0">
 <tr><td align="center"><p class="p10">ランク</p></td><td colspan="2">防御R：<select name="defense" size="1" onChange="scalc()"><option value="6">+6</option><option value="5">+5</option><option value="4">+4</option><option value="3">+3</option><option value="2">+2</option><option value="1">+1</option><option value="0" selected="selected">--</option><option value="-1">-1</option><option value="-2">-2</option><option value="-3">-3</option><option value="-4">-4</option><option value="-5">-5</option><option value="-6">-6</option></select><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td>
 <td colspan="3">回避R：<select name="Avoidance" size="1" onChange="scalc()"><option value="6">+6</option><option value="5">+5</option><option value="4">+4</option><option value="3">+3</option><option value="2">+2</option><option value="1">+1</option><option value="0" selected="selected">--</option><option value="-1">-1</option><option value="-2">-2</option><option value="-3">-3</option><option value="-4">-4</option><option value="-5">-5</option><option value="-6">-6</option></select><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td></td>
-<td><input value="--" readonly></td></tr>
+</tr>
 
 <tr><td rowspan="2" align="center"><p class="p11">HP</p></td><td>実数値：</td><td><input type="number" value="175" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td colspan="4"><input class="check" type="checkbox">残りHP指定：<input type="number" value="" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td></tr>
 <tr><td>努力値：</td><td><input type="number" name="d_h2" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_h2', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_h2', 252);"></td><td colspan="3">個体値：<input type="number" name="k_h2" value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_h2', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_h2', 31);"></td></tr>

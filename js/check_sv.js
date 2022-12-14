@@ -11,8 +11,8 @@ function setvalue(elm,num){
 
 
 //種族値を代入する
-function setpokemon(num1){
-	mega_button(num1);
+function setpokemon(num){
+	mega_button(num);
 	if(num1==1){
 		for(i=0; i<pokemon.length; i++){
 			if(pokemon[i][0]==document.nForm.elements['pokename'].value){

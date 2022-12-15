@@ -1,0 +1,7039 @@
+{
+  "pokedex": [
+    {
+      "id": 1003802,
+      "name": "パフュートン（メス）",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 115,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 59,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1003803,
+      "name": "ケンタロス（ウォーター種）",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 105,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1003804,
+      "name": "ケンタロス（ブレイズ種）",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 105,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1003805,
+      "name": "パルデアケンタロス",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 105,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1003806,
+      "name": "パルデアウパー",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 25,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1003808,
+      "name": "イエッサン（メス）",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1003809,
+      "name": "コオリッポ（ナイスフェイス）",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 130
+    },
+    {
+      "id": 1003810,
+      "name": "ストリンダー（ローなすがた）",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 98,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 114,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1003811,
+      "name": "ルガルガン（まよなかのすがた）",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 82
+    },
+    {
+      "id": 1003812,
+      "name": "ルガルガン（たそがれのすがた）",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 117,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1003813,
+      "name": "オドリドリ（まいまいスタイル）",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 98,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 93
+    },
+    {
+      "id": 1003814,
+      "name": "オドリドリ（パチパチスタイル）",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 98,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 93
+    },
+    {
+      "id": 1003815,
+      "name": "オドリドリ（ふらふらスタイル）",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 98,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 93
+    },
+    {
+      "id": 1003824,
+      "name": "ウォッシュロトム",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 107,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 107,
+      "speedBaseStats": 86
+    },
+    {
+      "id": 1003825,
+      "name": "カットロトム",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 107,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 107,
+      "speedBaseStats": 86
+    },
+    {
+      "id": 1003826,
+      "name": "ヒートロトム",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 107,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 107,
+      "speedBaseStats": 86
+    },
+    {
+      "id": 1003827,
+      "name": "フロストロトム",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 107,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 107,
+      "speedBaseStats": 86
+    },
+    {
+      "id": 1003828,
+      "name": "スピンロトム",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 107,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 107,
+      "speedBaseStats": 86
+    },
+    {
+      "id": 1003829,
+      "name": "ミライドン",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 135,
+      "specialDefenseBaseStats": 115,
+      "speedBaseStats": 135
+    },
+    {
+      "id": 1003830,
+      "name": "コライドン",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 135,
+      "defenseBaseStats": 115,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 135
+    },
+    {
+      "id": 1003831,
+      "name": "テツノブジン",
+      "types": [
+        {
+          "name": "フェアリー"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 74,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 120,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 116
+    },
+    {
+      "id": 1003832,
+      "name": "トドロクツキ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 105,
+      "attackBaseStats": 139,
+      "defenseBaseStats": 71,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 101,
+      "speedBaseStats": 119
+    },
+    {
+      "id": 1003833,
+      "name": "イーユイ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 135,
+      "specialDefenseBaseStats": 120,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1003834,
+      "name": "ディンルー",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 155,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 125,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1003835,
+      "name": "パオジアン",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 135
+    },
+    {
+      "id": 1003836,
+      "name": "チオンジェン",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 135,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1003837,
+      "name": "サーフゴー",
+      "types": [
+        {
+          "name": "はがね"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 87,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 133,
+      "specialDefenseBaseStats": 91,
+      "speedBaseStats": 84
+    },
+    {
+      "id": 1003838,
+      "name": "コレクレー",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 10
+    },
+    {
+      "id": 1003839,
+      "name": "セグレイブ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 115,
+      "attackBaseStats": 145,
+      "defenseBaseStats": 92,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 86,
+      "speedBaseStats": 87
+    },
+    {
+      "id": 1003840,
+      "name": "セゴール",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 66,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 62
+    },
+    {
+      "id": 1003841,
+      "name": "セビエ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1003842,
+      "name": "テツノイバラ",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 134,
+      "defenseBaseStats": 110,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 84,
+      "speedBaseStats": 72
+    },
+    {
+      "id": 1003843,
+      "name": "テツノドクガ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 140,
+      "specialDefenseBaseStats": 110,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1003844,
+      "name": "テツノコウベ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 94,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 86,
+      "specialAttackBaseStats": 122,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 108
+    },
+    {
+      "id": 1003845,
+      "name": "テツノカイナ",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 154,
+      "attackBaseStats": 140,
+      "defenseBaseStats": 108,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 68,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1003846,
+      "name": "テツノツツミ",
+      "types": [
+        {
+          "name": "こおり"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 56,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 114,
+      "specialAttackBaseStats": 124,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 136
+    },
+    {
+      "id": 1003847,
+      "name": "テツノワダチ",
+      "types": [
+        {
+          "name": "じめん"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 112,
+      "defenseBaseStats": 120,
+      "specialAttackBaseStats": 72,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 106
+    },
+    {
+      "id": 1003848,
+      "name": "スナノケガワ",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 81,
+      "defenseBaseStats": 97,
+      "specialAttackBaseStats": 121,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 101
+    },
+    {
+      "id": 1003849,
+      "name": "チヲハウハネ",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 135,
+      "defenseBaseStats": 79,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 81
+    },
+    {
+      "id": 1003850,
+      "name": "ハバタクカミ",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 135,
+      "specialDefenseBaseStats": 135,
+      "speedBaseStats": 135
+    },
+    {
+      "id": 1003991,
+      "name": "アラブルタケ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 111,
+      "attackBaseStats": 127,
+      "defenseBaseStats": 99,
+      "specialAttackBaseStats": 79,
+      "specialDefenseBaseStats": 99,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1003992,
+      "name": "サケブシッポ",
+      "types": [
+        {
+          "name": "フェアリー"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 115,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 99,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 115,
+      "speedBaseStats": 111
+    },
+    {
+      "id": 1003993,
+      "name": "イダイナキバ",
+      "types": [
+        {
+          "name": "じめん"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 115,
+      "attackBaseStats": 131,
+      "defenseBaseStats": 131,
+      "specialAttackBaseStats": 53,
+      "specialDefenseBaseStats": 53,
+      "speedBaseStats": 87
+    },
+    {
+      "id": 1003994,
+      "name": "シャリタツ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 120,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 82
+    },
+    {
+      "id": 1003995,
+      "name": "ヘイラッシャ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 150,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 115,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1003996,
+      "name": "ミガルーサ",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 102,
+      "defenseBaseStats": 73,
+      "specialAttackBaseStats": 78,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1003997,
+      "name": "サザンドラ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 92,
+      "attackBaseStats": 105,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 125,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 98
+    },
+    {
+      "id": 1003998,
+      "name": "ジヘッド",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 72,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 58
+    },
+    {
+      "id": 1003999,
+      "name": "モノズ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 52,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 38
+    },
+    {
+      "id": 1004000,
+      "name": "ドドゲザン",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 135,
+      "defenseBaseStats": 120,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1004001,
+      "name": "キリキザン",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1004002,
+      "name": "コマタナ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1004003,
+      "name": "ウォーグル",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 123,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 57,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1004004,
+      "name": "ワシボン",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 83,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 37,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1004005,
+      "name": "クレベース",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 117,
+      "defenseBaseStats": 184,
+      "specialAttackBaseStats": 44,
+      "specialDefenseBaseStats": 46,
+      "speedBaseStats": 28
+    },
+    {
+      "id": 1004006,
+      "name": "カチコール",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 69,
+      "defenseBaseStats": 85,
+      "specialAttackBaseStats": 32,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 28
+    },
+    {
+      "id": 1004007,
+      "name": "ハルクジラ",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 170,
+      "attackBaseStats": 113,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 73
+    },
+    {
+      "id": 1004008,
+      "name": "アルクジラ",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 108,
+      "attackBaseStats": 68,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 43
+    },
+    {
+      "id": 1004009,
+      "name": "フリージオ",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 135,
+      "speedBaseStats": 105
+    },
+    {
+      "id": 1004010,
+      "name": "ユキメノコ",
+      "types": [
+        {
+          "name": "こおり"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1004011,
+      "name": "オニゴーリ",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1004012,
+      "name": "ユキワラシ",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1004013,
+      "name": "ツンベアー",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1004014,
+      "name": "クマシュン",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1004015,
+      "name": "デリバード",
+      "types": [
+        {
+          "name": "こおり"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1030909,
+      "name": "ユキノオー",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 92,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 92,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1030910,
+      "name": "ユキカブリ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 62,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 62,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1030911,
+      "name": "モスノウ",
+      "types": [
+        {
+          "name": "こおり"
+        },
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 125,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1030912,
+      "name": "ユキハミ",
+      "types": [
+        {
+          "name": "こおり"
+        },
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 25,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1030913,
+      "name": "カイリュー",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 91,
+      "attackBaseStats": 134,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1030914,
+      "name": "ハクリュー",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 61,
+      "attackBaseStats": 84,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1030915,
+      "name": "ミニリュウ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 41,
+      "attackBaseStats": 64,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1030916,
+      "name": "カラミンゴ",
+      "types": [
+        {
+          "name": "ひこう"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 82,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 74,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 64,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1030917,
+      "name": "ドヒドイデ",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 63,
+      "defenseBaseStats": 152,
+      "specialAttackBaseStats": 53,
+      "specialDefenseBaseStats": 142,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1030918,
+      "name": "ヒドイデ",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 53,
+      "defenseBaseStats": 62,
+      "specialAttackBaseStats": 43,
+      "specialDefenseBaseStats": 52,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1030919,
+      "name": "シビルドン",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1030920,
+      "name": "シビビール",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1030921,
+      "name": "シビシラス",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 35,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1030922,
+      "name": "ブロスター",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 71,
+      "attackBaseStats": 73,
+      "defenseBaseStats": 88,
+      "specialAttackBaseStats": 120,
+      "specialDefenseBaseStats": 89,
+      "speedBaseStats": 59
+    },
+    {
+      "id": 1030923,
+      "name": "ウデッポウ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 53,
+      "defenseBaseStats": 62,
+      "specialAttackBaseStats": 58,
+      "specialDefenseBaseStats": 63,
+      "speedBaseStats": 44
+    },
+    {
+      "id": 1030924,
+      "name": "ドラミドロ",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 97,
+      "specialDefenseBaseStats": 123,
+      "speedBaseStats": 44
+    },
+    {
+      "id": 1030925,
+      "name": "クズモー",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1030926,
+      "name": "ママンボウ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 165,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1030927,
+      "name": "ハギギシリ",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 105,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 92
+    },
+    {
+      "id": 1030928,
+      "name": "ネオラント",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 69,
+      "attackBaseStats": 69,
+      "defenseBaseStats": 76,
+      "specialAttackBaseStats": 69,
+      "specialDefenseBaseStats": 86,
+      "speedBaseStats": 91
+    },
+    {
+      "id": 1030929,
+      "name": "ケイコウオ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 49,
+      "attackBaseStats": 49,
+      "defenseBaseStats": 56,
+      "specialAttackBaseStats": 49,
+      "specialDefenseBaseStats": 61,
+      "speedBaseStats": 66
+    },
+    {
+      "id": 1030930,
+      "name": "ラブカス",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 43,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 97
+    },
+    {
+      "id": 1030931,
+      "name": "ハリーセン",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 85,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1030932,
+      "name": "パルシェン",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 180,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1030933,
+      "name": "シェルダー",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1030934,
+      "name": "トリトドン",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 111,
+      "attackBaseStats": 83,
+      "defenseBaseStats": 68,
+      "specialAttackBaseStats": 92,
+      "specialDefenseBaseStats": 82,
+      "speedBaseStats": 39
+    },
+    {
+      "id": 1030935,
+      "name": "カラナクシ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 76,
+      "attackBaseStats": 48,
+      "defenseBaseStats": 48,
+      "specialAttackBaseStats": 57,
+      "specialDefenseBaseStats": 62,
+      "speedBaseStats": 34
+    },
+    {
+      "id": 1030936,
+      "name": "ヤドキング",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 110,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1030937,
+      "name": "ヤドラン",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 110,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1030938,
+      "name": "ヤドン",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1030939,
+      "name": "シロデスナ",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 110,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1030940,
+      "name": "スナバァ",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1030941,
+      "name": "バチンウニ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 48,
+      "attackBaseStats": 101,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 91,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1030942,
+      "name": "コオリッポ",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 110,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1030943,
+      "name": "イシヘンジン",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 135,
+      "specialAttackBaseStats": 20,
+      "specialDefenseBaseStats": 20,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1030944,
+      "name": "バンギラス",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 134,
+      "defenseBaseStats": 110,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 61
+    },
+    {
+      "id": 1030945,
+      "name": "サナギラス",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 84,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 51
+    },
+    {
+      "id": 1030946,
+      "name": "ヨーギラス",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 64,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 41
+    },
+    {
+      "id": 1030947,
+      "name": "ネッコアラ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1030948,
+      "name": "ナゲツケサル",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1030949,
+      "name": "ヤレユータン",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 110,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1030950,
+      "name": "ハカドッグ",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 72,
+      "attackBaseStats": 101,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 97,
+      "speedBaseStats": 68
+    },
+    {
+      "id": 1030951,
+      "name": "ボチ",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 61,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 34
+    },
+    {
+      "id": 1030952,
+      "name": "ロトム",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 77,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 77,
+      "speedBaseStats": 91
+    },
+    {
+      "id": 1030953,
+      "name": "キラフロル",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 83,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 130,
+      "specialDefenseBaseStats": 81,
+      "speedBaseStats": 86
+    },
+    {
+      "id": 1030954,
+      "name": "キラーメ",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 48,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 42,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1030955,
+      "name": "ドラパルト",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 88,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 142
+    },
+    {
+      "id": 1030956,
+      "name": "ドロンチ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 102
+    },
+    {
+      "id": 1030957,
+      "name": "ドラメシヤ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 28,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 82
+    },
+    {
+      "id": 1030958,
+      "name": "オンバーン",
+      "types": [
+        {
+          "name": "ひこう"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 97,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 123
+    },
+    {
+      "id": 1030959,
+      "name": "オンバット",
+      "types": [
+        {
+          "name": "ひこう"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1030960,
+      "name": "ミカルゲ",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 92,
+      "defenseBaseStats": 108,
+      "specialAttackBaseStats": 92,
+      "specialDefenseBaseStats": 108,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1030961,
+      "name": "ルチャブル",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 78,
+      "attackBaseStats": 92,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 74,
+      "specialDefenseBaseStats": 63,
+      "speedBaseStats": 118
+    },
+    {
+      "id": 1030962,
+      "name": "タイレーツ",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1030963,
+      "name": "ジュペッタ",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 64,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 83,
+      "specialDefenseBaseStats": 63,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1030964,
+      "name": "カゲボウズ",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 44,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 63,
+      "specialDefenseBaseStats": 33,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1030965,
+      "name": "ヤミラミ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1030966,
+      "name": "ミミズズ",
+      "types": [
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 145,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1030967,
+      "name": "モトトカゲ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 121
+    },
+    {
+      "id": 1030968,
+      "name": "ブロロローム",
+      "types": [
+        {
+          "name": "はがね"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 119,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 54,
+      "specialDefenseBaseStats": 67,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1030969,
+      "name": "ブロロン",
+      "types": [
+        {
+          "name": "はがね"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 63,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 47
+    },
+    {
+      "id": 1030970,
+      "name": "イルカマン",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 72,
+      "specialAttackBaseStats": 53,
+      "specialDefenseBaseStats": 62,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1030971,
+      "name": "ナミイルカ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1030972,
+      "name": "オトシドリ",
+      "types": [
+        {
+          "name": "ひこう"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 103,
+      "defenseBaseStats": 85,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 82
+    },
+    {
+      "id": 1030973,
+      "name": "ウミトリオ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 35,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 120
+    },
+    {
+      "id": 1030974,
+      "name": "ウミディグダ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 10,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 25,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1030975,
+      "name": "オーロンゲ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1030976,
+      "name": "ギモー",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1030977,
+      "name": "ベロバー",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1030978,
+      "name": "ブリムオン",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 57,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 136,
+      "specialDefenseBaseStats": 103,
+      "speedBaseStats": 29
+    },
+    {
+      "id": 1030979,
+      "name": "テブリム",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 57,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 86,
+      "specialDefenseBaseStats": 73,
+      "speedBaseStats": 49
+    },
+    {
+      "id": 1030980,
+      "name": "ミブリム",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 42,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 56,
+      "specialDefenseBaseStats": 53,
+      "speedBaseStats": 39
+    },
+    {
+      "id": 1030981,
+      "name": "デカヌチャン",
+      "types": [
+        {
+          "name": "フェアリー"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 77,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 94
+    },
+    {
+      "id": 1030982,
+      "name": "ナカヌチャン",
+      "types": [
+        {
+          "name": "フェアリー"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 82,
+      "speedBaseStats": 78
+    },
+    {
+      "id": 1030983,
+      "name": "カヌチャン",
+      "types": [
+        {
+          "name": "フェアリー"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 64,
+      "speedBaseStats": 58
+    },
+    {
+      "id": 1030984,
+      "name": "ボーマンダ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 135,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1030985,
+      "name": "コモルー",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1030986,
+      "name": "タツベイ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1030987,
+      "name": "ウルガモス",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 135,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1030988,
+      "name": "メラルバ",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1030989,
+      "name": "バンバドロ",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1030990,
+      "name": "ドロバンコ",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1030991,
+      "name": "サダイジャ",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 72,
+      "attackBaseStats": 107,
+      "defenseBaseStats": 125,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 71
+    },
+    {
+      "id": 1030992,
+      "name": "スナヘビ",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 52,
+      "attackBaseStats": 57,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 46
+    },
+    {
+      "id": 1030993,
+      "name": "ワルビアル",
+      "types": [
+        {
+          "name": "じめん"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 117,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 92
+    },
+    {
+      "id": 1031988,
+      "name": "ワルビル",
+      "types": [
+        {
+          "name": "じめん"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 82,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 74
+    },
+    {
+      "id": 1031989,
+      "name": "メグロコ",
+      "types": [
+        {
+          "name": "じめん"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 72,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1031990,
+      "name": "カバルドン",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 108,
+      "attackBaseStats": 112,
+      "defenseBaseStats": 118,
+      "specialAttackBaseStats": 68,
+      "specialDefenseBaseStats": 72,
+      "speedBaseStats": 47
+    },
+    {
+      "id": 1031991,
+      "name": "ヒポポタス",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 72,
+      "defenseBaseStats": 78,
+      "specialAttackBaseStats": 38,
+      "specialDefenseBaseStats": 42,
+      "speedBaseStats": 32
+    },
+    {
+      "id": 1031992,
+      "name": "クエスパトラ",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 101,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 105
+    },
+    {
+      "id": 1031994,
+      "name": "ヒラヒナ",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1031995,
+      "name": "ヘラクロス",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1031996,
+      "name": "ハッサム",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1032006,
+      "name": "ストライク",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 105
+    },
+    {
+      "id": 1038892,
+      "name": "フォレトス",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 140,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1038893,
+      "name": "クヌギダマ",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1048720,
+      "name": "モルフォン",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1048721,
+      "name": "コンパン",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1048722,
+      "name": "ベラカス",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 85,
+      "specialAttackBaseStats": 115,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1048723,
+      "name": "シガロコ",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 41,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 31,
+      "specialDefenseBaseStats": 58,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1048724,
+      "name": "ノクタス",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 115,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1048725,
+      "name": "サボネア",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1048726,
+      "name": "スコヴィラン",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 108,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 108,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1048727,
+      "name": "カプサイジ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 62,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 62,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1048728,
+      "name": "ガケガニ",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 115,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1048729,
+      "name": "ラランテス",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 105,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1048730,
+      "name": "カリキリ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1048731,
+      "name": "トロピウス",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 99,
+      "attackBaseStats": 68,
+      "defenseBaseStats": 83,
+      "specialAttackBaseStats": 72,
+      "specialDefenseBaseStats": 87,
+      "speedBaseStats": 51
+    },
+    {
+      "id": 1048732,
+      "name": "リククラゲ",
+      "types": [
+        {
+          "name": "じめん"
+        },
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 120,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1048733,
+      "name": "ノノクラゲ",
+      "types": [
+        {
+          "name": "じめん"
+        },
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1048734,
+      "name": "アノホラグサ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1048735,
+      "name": "アノクサ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1048736,
+      "name": "イエッサン",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1048737,
+      "name": "クレッフィ",
+      "types": [
+        {
+          "name": "はがね"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 57,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 91,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 87,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1048738,
+      "name": "ミミッキュ",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 96
+    },
+    {
+      "id": 1048739,
+      "name": "ポットデス",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 134,
+      "specialDefenseBaseStats": 114,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1060888,
+      "name": "ヤバチャ",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 74,
+      "specialDefenseBaseStats": 54,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1060889,
+      "name": "ゴチルゼル",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 110,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1060890,
+      "name": "ゴチミル",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1060891,
+      "name": "ゴチム",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1060892,
+      "name": "ドンカラス",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 52,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 52,
+      "speedBaseStats": 71
+    },
+    {
+      "id": 1060893,
+      "name": "ヤミカラス",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 42,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 42,
+      "speedBaseStats": 91
+    },
+    {
+      "id": 1060894,
+      "name": "マニューラ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 125
+    },
+    {
+      "id": 1060895,
+      "name": "ニューラ",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 115
+    },
+    {
+      "id": 1060896,
+      "name": "ゾロアーク",
+      "types": [
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 105,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 120,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 105
+    },
+    {
+      "id": 1060897,
+      "name": "ゾロア",
+      "types": [
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1064841,
+      "name": "スカタンク",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 103,
+      "attackBaseStats": 93,
+      "defenseBaseStats": 67,
+      "specialAttackBaseStats": 71,
+      "specialDefenseBaseStats": 61,
+      "speedBaseStats": 84
+    },
+    {
+      "id": 1064842,
+      "name": "スカンプー",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 63,
+      "attackBaseStats": 63,
+      "defenseBaseStats": 47,
+      "specialAttackBaseStats": 41,
+      "specialDefenseBaseStats": 41,
+      "speedBaseStats": 74
+    },
+    {
+      "id": 1064843,
+      "name": "カエンジシ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 86,
+      "attackBaseStats": 68,
+      "defenseBaseStats": 72,
+      "specialAttackBaseStats": 109,
+      "specialDefenseBaseStats": 66,
+      "speedBaseStats": 106
+    },
+    {
+      "id": 1064844,
+      "name": "シシコ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 62,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 58,
+      "specialAttackBaseStats": 73,
+      "specialDefenseBaseStats": 54,
+      "speedBaseStats": 72
+    },
+    {
+      "id": 1064845,
+      "name": "ケンタロス",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1064846,
+      "name": "ゴーゴート",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 123,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 62,
+      "specialAttackBaseStats": 97,
+      "specialDefenseBaseStats": 81,
+      "speedBaseStats": 68
+    },
+    {
+      "id": 1064847,
+      "name": "メェークル",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 66,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 48,
+      "specialAttackBaseStats": 62,
+      "specialDefenseBaseStats": 57,
+      "speedBaseStats": 52
+    },
+    {
+      "id": 1064848,
+      "name": "チルタリス",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1064849,
+      "name": "チルット",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1064850,
+      "name": "ハブネーク",
+      "types": [
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 73,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1064851,
+      "name": "ザングース",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 73,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1069124,
+      "name": "リングマ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1069216,
+      "name": "ヒメグマ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1069217,
+      "name": "ウインディ",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1069218,
+      "name": "ガーディ",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1069219,
+      "name": "メタモン",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 48,
+      "attackBaseStats": 48,
+      "defenseBaseStats": 48,
+      "specialAttackBaseStats": 48,
+      "specialDefenseBaseStats": 48,
+      "speedBaseStats": 48
+    },
+    {
+      "id": 1069220,
+      "name": "ジバコイル",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 115,
+      "specialAttackBaseStats": 130,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1069221,
+      "name": "レアコイル",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 120,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1069222,
+      "name": "コイル",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 25,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1069223,
+      "name": "マルマイン",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 150
+    },
+    {
+      "id": 1069224,
+      "name": "ビリリダマ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1069225,
+      "name": "モロバレル",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 114,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1069226,
+      "name": "タマゲタケ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 69,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1069227,
+      "name": "オドシシ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 73,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 62,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1069228,
+      "name": "タギングル",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 63,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 72,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1069229,
+      "name": "シルシュルー",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1069230,
+      "name": "パチリス",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1069231,
+      "name": "デデンネ",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 67,
+      "attackBaseStats": 58,
+      "defenseBaseStats": 57,
+      "specialAttackBaseStats": 81,
+      "specialDefenseBaseStats": 67,
+      "speedBaseStats": 101
+    },
+    {
+      "id": 1071845,
+      "name": "ストリンダー",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 98,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 114,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1071846,
+      "name": "エレズン",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 38,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 54,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1071847,
+      "name": "マフィティフ",
+      "types": [
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1071848,
+      "name": "オラチフ",
+      "types": [
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 78,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 51,
+      "speedBaseStats": 51
+    },
+    {
+      "id": 1071849,
+      "name": "ベトベトン",
+      "types": [
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 105,
+      "attackBaseStats": 105,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1071850,
+      "name": "ベトベター",
+      "types": [
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 25
+    },
+    {
+      "id": 1071879,
+      "name": "リキキリン",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 120,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1078903,
+      "name": "キリンリキ",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1100199,
+      "name": "メブキジカ",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1100200,
+      "name": "シキジカ",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1100201,
+      "name": "ノココッチ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 125,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1100202,
+      "name": "ノコッチ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1100203,
+      "name": "ニンフィア",
+      "types": [
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 130,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1100204,
+      "name": "グレイシア",
+      "types": [
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 110,
+      "specialAttackBaseStats": 130,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1100205,
+      "name": "リーフィア",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 130,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1119865,
+      "name": "ブラッキー",
+      "types": [
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 110,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 130,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1119866,
+      "name": "エーフィ",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 130,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1119867,
+      "name": "ブースター",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 110,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1119868,
+      "name": "サンダース",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 130
+    },
+    {
+      "id": 1119869,
+      "name": "シャワーズ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 130,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1119870,
+      "name": "イーブイ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1119871,
+      "name": "タイカイデン",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 125
+    },
+    {
+      "id": 1119872,
+      "name": "カイデン",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1119873,
+      "name": "ドクロッグ",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 83,
+      "attackBaseStats": 106,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 86,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1119874,
+      "name": "グレッグル",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 48,
+      "attackBaseStats": 61,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 61,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1119875,
+      "name": "ヌメルゴン",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 150,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119876,
+      "name": "ヌメイル",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 53,
+      "specialAttackBaseStats": 83,
+      "specialDefenseBaseStats": 113,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119877,
+      "name": "ヌメラ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1119878,
+      "name": "ハラバリー",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 109,
+      "attackBaseStats": 64,
+      "defenseBaseStats": 91,
+      "specialAttackBaseStats": 103,
+      "specialDefenseBaseStats": 83,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1119879,
+      "name": "ズピカ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 61,
+      "attackBaseStats": 31,
+      "defenseBaseStats": 41,
+      "specialAttackBaseStats": 59,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1119880,
+      "name": "ナマズン",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 110,
+      "attackBaseStats": 78,
+      "defenseBaseStats": 73,
+      "specialAttackBaseStats": 76,
+      "specialDefenseBaseStats": 71,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119881,
+      "name": "ドジョッチ",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 48,
+      "defenseBaseStats": 43,
+      "specialAttackBaseStats": 46,
+      "specialDefenseBaseStats": 41,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119882,
+      "name": "ソウブレイズ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1119883,
+      "name": "グレンアルマ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 125,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1119884,
+      "name": "カルボウ",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1119885,
+      "name": "ルカリオ",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 115,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1119886,
+      "name": "リオル",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119887,
+      "name": "チャーレム",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119888,
+      "name": "アサナン",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119889,
+      "name": "コノヨザル",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 110,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1119890,
+      "name": "オコリザル",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 105,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1119891,
+      "name": "マンキー",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1119892,
+      "name": "オノノクス",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 76,
+      "attackBaseStats": 147,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 97
+    },
+    {
+      "id": 1119893,
+      "name": "オノンド",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 66,
+      "attackBaseStats": 117,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 67
+    },
+    {
+      "id": 1119894,
+      "name": "キバゴ",
+      "types": [
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 46,
+      "attackBaseStats": 87,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 57
+    },
+    {
+      "id": 1119895,
+      "name": "ドータクン",
+      "types": [
+        {
+          "name": "はがね"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 67,
+      "attackBaseStats": 89,
+      "defenseBaseStats": 116,
+      "specialAttackBaseStats": 79,
+      "specialDefenseBaseStats": 116,
+      "speedBaseStats": 33
+    },
+    {
+      "id": 1119896,
+      "name": "ドーミラー",
+      "types": [
+        {
+          "name": "はがね"
+        },
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 57,
+      "attackBaseStats": 24,
+      "defenseBaseStats": 86,
+      "specialAttackBaseStats": 24,
+      "specialDefenseBaseStats": 86,
+      "speedBaseStats": 23
+    },
+    {
+      "id": 1119897,
+      "name": "バクーダ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1119898,
+      "name": "ドンメル",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1119899,
+      "name": "コータス",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 140,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1119900,
+      "name": "ダグトリオ",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 35,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 120
+    },
+    {
+      "id": 1119901,
+      "name": "ディグダ",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 10,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 25,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1119902,
+      "name": "フラージェス",
+      "types": [
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 78,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 68,
+      "specialAttackBaseStats": 112,
+      "specialDefenseBaseStats": 154,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1119903,
+      "name": "フラエッテ",
+      "types": [
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 54,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 47,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 98,
+      "speedBaseStats": 52
+    },
+    {
+      "id": 1119904,
+      "name": "フラベベ",
+      "types": [
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 44,
+      "attackBaseStats": 38,
+      "defenseBaseStats": 39,
+      "specialAttackBaseStats": 61,
+      "specialDefenseBaseStats": 79,
+      "speedBaseStats": 42
+    },
+    {
+      "id": 1119905,
+      "name": "フワライド",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 150,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 44,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 54,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119906,
+      "name": "フワンテ",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 34,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 44,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1119907,
+      "name": "ペルシアン",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 65,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 115
+    },
+    {
+      "id": 1119908,
+      "name": "ニャース",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1119909,
+      "name": "マルノーム",
+      "types": [
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 73,
+      "defenseBaseStats": 83,
+      "specialAttackBaseStats": 73,
+      "specialDefenseBaseStats": 83,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1119910,
+      "name": "ゴクリン",
+      "types": [
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 43,
+      "defenseBaseStats": 53,
+      "specialAttackBaseStats": 43,
+      "specialDefenseBaseStats": 53,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1119911,
+      "name": "バスラオ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 92,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 98
+    },
+    {
+      "id": 1119912,
+      "name": "カマスジョー",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 61,
+      "attackBaseStats": 123,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 136
+    },
+    {
+      "id": 1119913,
+      "name": "サシカマス",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 41,
+      "attackBaseStats": 63,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 66
+    },
+    {
+      "id": 1119914,
+      "name": "ギャラドス",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 79,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 81
+    },
+    {
+      "id": 1119915,
+      "name": "コイキング",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 20,
+      "attackBaseStats": 10,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 15,
+      "specialDefenseBaseStats": 20,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119916,
+      "name": "ペリッパー",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1119917,
+      "name": "キャモメ",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1119918,
+      "name": "キョジオーン",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 130,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1119919,
+      "name": "ジオヅム",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1119920,
+      "name": "コジオ",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 25
+    },
+    {
+      "id": 1119921,
+      "name": "ガブリアス",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 108,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 102
+    },
+    {
+      "id": 1119922,
+      "name": "ガバイト",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 82
+    },
+    {
+      "id": 1119923,
+      "name": "フカマル",
+      "types": [
+        {
+          "name": "ドラゴン"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 58,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 42
+    },
+    {
+      "id": 1119924,
+      "name": "ダイオウドウ",
+      "types": [
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 122,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 69,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 69,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119925,
+      "name": "ゾウドウ",
+      "types": [
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 72,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 49,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 49,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1119926,
+      "name": "ドンファン",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 120,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1119927,
+      "name": "ゴマゾウ",
+      "types": [
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1119928,
+      "name": "エンニュート",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 64,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 111,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 117
+    },
+    {
+      "id": 1119929,
+      "name": "ヤトウモリ",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 48,
+      "attackBaseStats": 44,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 71,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 77
+    },
+    {
+      "id": 1119930,
+      "name": "ケケンカニ",
+      "types": [
+        {
+          "name": "かくとう"
+        },
+        {
+          "name": "こおり"
+        }
+      ],
+      "hitPointBaseStats": 97,
+      "attackBaseStats": 132,
+      "defenseBaseStats": 77,
+      "specialAttackBaseStats": 62,
+      "specialDefenseBaseStats": 67,
+      "speedBaseStats": 43
+    },
+    {
+      "id": 1119931,
+      "name": "マケンカニ",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 47,
+      "attackBaseStats": 82,
+      "defenseBaseStats": 57,
+      "specialAttackBaseStats": 42,
+      "specialDefenseBaseStats": 47,
+      "speedBaseStats": 63
+    },
+    {
+      "id": 1119932,
+      "name": "ハリテヤマ",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 144,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1119933,
+      "name": "マクノシタ",
+      "types": [
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 72,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 20,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 25
+    },
+    {
+      "id": 1119934,
+      "name": "ムウマージ",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 105
+    },
+    {
+      "id": 1119935,
+      "name": "ムウマ",
+      "types": [
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1119936,
+      "name": "イキリンコ",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 82,
+      "attackBaseStats": 96,
+      "defenseBaseStats": 51,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 51,
+      "speedBaseStats": 92
+    },
+    {
+      "id": 1119937,
+      "name": "ブーピッグ",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 110,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119938,
+      "name": "バネブー",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 25,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119939,
+      "name": "タルップル",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 110,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119940,
+      "name": "アップリュー",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1119941,
+      "name": "カジッチュ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ドラゴン"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1119942,
+      "name": "キノガッサ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 130,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1119943,
+      "name": "キノココ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1119944,
+      "name": "ドレディア",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1119945,
+      "name": "チュリネ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119946,
+      "name": "デンリュウ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 85,
+      "specialAttackBaseStats": 115,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1119947,
+      "name": "モココ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1119948,
+      "name": "メリープ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1119949,
+      "name": "オドリドリ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 98,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 93
+    },
+    {
+      "id": 1119950,
+      "name": "ムクホーク",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1119951,
+      "name": "ムクバード",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119952,
+      "name": "ムックル",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119953,
+      "name": "レントラー",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 79,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 79,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1119954,
+      "name": "ルクシオ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 49,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 49,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119955,
+      "name": "コリンク",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 34,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 34,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1119956,
+      "name": "セキタンザン",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 110,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 120,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119957,
+      "name": "トロッゴン",
+      "types": [
+        {
+          "name": "いわ"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1119958,
+      "name": "タンドン",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119959,
+      "name": "ルガルガン",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 112
+    },
+    {
+      "id": 1119960,
+      "name": "イワンコ",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119961,
+      "name": "ウソッキー",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 115,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119962,
+      "name": "ウソハチ",
+      "types": [
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 10,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 10
+    },
+    {
+      "id": 1119963,
+      "name": "オリーヴァ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 78,
+      "attackBaseStats": 69,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 125,
+      "specialDefenseBaseStats": 109,
+      "speedBaseStats": 39
+    },
+    {
+      "id": 1119964,
+      "name": "オリーニョ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 52,
+      "attackBaseStats": 53,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 78,
+      "specialDefenseBaseStats": 78,
+      "speedBaseStats": 33
+    },
+    {
+      "id": 1119965,
+      "name": "ミニーブ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 41,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 58,
+      "specialDefenseBaseStats": 51,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119966,
+      "name": "アマージョ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 72,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 98,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 98,
+      "speedBaseStats": 72
+    },
+    {
+      "id": 1119967,
+      "name": "アママイコ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 52,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 48,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 48,
+      "speedBaseStats": 62
+    },
+    {
+      "id": 1119968,
+      "name": "アマカジ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 42,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 38,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 38,
+      "speedBaseStats": 32
+    },
+    {
+      "id": 1119969,
+      "name": "ケッキング",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 150,
+      "attackBaseStats": 160,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1119970,
+      "name": "ヤルキモノ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1119971,
+      "name": "ナマケロ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1119972,
+      "name": "バウッツェル",
+      "types": [
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 57,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 115,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1119973,
+      "name": "パピモッチ",
+      "types": [
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 37,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1119974,
+      "name": "ライチュウ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1119975,
+      "name": "ピカチュウ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 35,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 90
+    },
+    {
+      "id": 1119976,
+      "name": "ピチュー",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 20,
+      "attackBaseStats": 40,
+      "defenseBaseStats": 15,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1119977,
+      "name": "イッカネズミ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 74,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 111
+    },
+    {
+      "id": 1119978,
+      "name": "ワッカネズミ",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 75
+    },
+    {
+      "id": 1119979,
+      "name": "ゲンガー",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 130,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1119980,
+      "name": "ゴースト",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 115,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1119981,
+      "name": "ゴース",
+      "types": [
+        {
+          "name": "ゴースト"
+        },
+        {
+          "name": "どく"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119982,
+      "name": "スリーパー",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 73,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 73,
+      "specialDefenseBaseStats": 115,
+      "speedBaseStats": 67
+    },
+    {
+      "id": 1119983,
+      "name": "スリープ",
+      "types": [
+        {
+          "name": "エスパー"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 48,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 43,
+      "specialDefenseBaseStats": 90,
+      "speedBaseStats": 42
+    },
+    {
+      "id": 1119984,
+      "name": "エルレイド",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 125,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 115,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119985,
+      "name": "サーナイト",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 125,
+      "specialDefenseBaseStats": 115,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1119986,
+      "name": "キルリア",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 38,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1119987,
+      "name": "ラルトス",
+      "types": [
+        {
+          "name": "エスパー"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 28,
+      "attackBaseStats": 25,
+      "defenseBaseStats": 25,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1119988,
+      "name": "プクリン",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 140,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1119989,
+      "name": "プリン",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 115,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 20,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1119990,
+      "name": "ププリン",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 15,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 20,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1119991,
+      "name": "カジリガメ",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "いわ"
+        }
+      ],
+      "hitPointBaseStats": 90,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 90,
+      "specialAttackBaseStats": 48,
+      "specialDefenseBaseStats": 68,
+      "speedBaseStats": 74
+    },
+    {
+      "id": 1119992,
+      "name": "カムカメ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 64,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 38,
+      "specialDefenseBaseStats": 38,
+      "speedBaseStats": 44
+    },
+    {
+      "id": 1119993,
+      "name": "ゴルダック",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 82,
+      "defenseBaseStats": 78,
+      "specialAttackBaseStats": 95,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1119994,
+      "name": "コダック",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 52,
+      "defenseBaseStats": 48,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1119995,
+      "name": "ドオー",
+      "types": [
+        {
+          "name": "どく"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 130,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 100,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1119996,
+      "name": "ウパー",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 25,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 15
+    },
+    {
+      "id": 1119997,
+      "name": "フローゼル",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 105,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 115
+    },
+    {
+      "id": 1119998,
+      "name": "ブイゼル",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1119999,
+      "name": "アメモース",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 62,
+      "specialAttackBaseStats": 100,
+      "specialDefenseBaseStats": 82,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1120000,
+      "name": "アメタマ",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 32,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 52,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1120001,
+      "name": "マリルリ",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1120002,
+      "name": "マリル",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 20,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 20,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1120003,
+      "name": "ルリリ",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "フェアリー"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 20,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 20,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1120004,
+      "name": "ハピナス",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 255,
+      "attackBaseStats": 10,
+      "defenseBaseStats": 10,
+      "specialAttackBaseStats": 75,
+      "specialDefenseBaseStats": 135,
+      "speedBaseStats": 55
+    },
+    {
+      "id": 1120005,
+      "name": "ラッキー",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 250,
+      "attackBaseStats": 5,
+      "defenseBaseStats": 5,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 105,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1120006,
+      "name": "ピンプク",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 5,
+      "defenseBaseStats": 5,
+      "specialAttackBaseStats": 15,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1120007,
+      "name": "アーマーガア",
+      "types": [
+        {
+          "name": "ひこう"
+        },
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 98,
+      "attackBaseStats": 87,
+      "defenseBaseStats": 105,
+      "specialAttackBaseStats": 53,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 67
+    },
+    {
+      "id": 1120008,
+      "name": "アオガラス",
+      "types": [
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 68,
+      "attackBaseStats": 67,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 43,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 77
+    },
+    {
+      "id": 1120009,
+      "name": "ココガラ",
+      "types": [
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 38,
+      "attackBaseStats": 47,
+      "defenseBaseStats": 35,
+      "specialAttackBaseStats": 33,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 57
+    },
+    {
+      "id": 1120010,
+      "name": "ビークイン",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 102,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 102,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1120011,
+      "name": "ミツハニー",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 42,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 42,
+      "speedBaseStats": 70
+    },
+    {
+      "id": 1120012,
+      "name": "ビビヨン",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 80,
+      "attackBaseStats": 52,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 89
+    },
+    {
+      "id": 1120013,
+      "name": "コフーライ",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 22,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 27,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 29
+    },
+    {
+      "id": 1120014,
+      "name": "コフキムシ",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 38,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 27,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1120015,
+      "name": "コロトック",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 77,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 51,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 51,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1120016,
+      "name": "コロボーシ",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 37,
+      "attackBaseStats": 25,
+      "defenseBaseStats": 41,
+      "specialAttackBaseStats": 25,
+      "specialDefenseBaseStats": 41,
+      "speedBaseStats": 25
+    },
+    {
+      "id": 1120017,
+      "name": "キマワリ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 105,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1120018,
+      "name": "ヒマナッツ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 30,
+      "attackBaseStats": 30,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 30
+    },
+    {
+      "id": 1120019,
+      "name": "ヨクバリス",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 120,
+      "attackBaseStats": 95,
+      "defenseBaseStats": 95,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1120020,
+      "name": "ホシガリス",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 35,
+      "speedBaseStats": 25
+    },
+    {
+      "id": 1120021,
+      "name": "デカグース",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 88,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 60,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1120022,
+      "name": "ヤングース",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 48,
+      "attackBaseStats": 70,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 30,
+      "specialDefenseBaseStats": 30,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1120023,
+      "name": "ヘルガー",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 90,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 95
+    },
+    {
+      "id": 1120024,
+      "name": "デルビル",
+      "types": [
+        {
+          "name": "あく"
+        },
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 60,
+      "defenseBaseStats": 30,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1120025,
+      "name": "パーモット",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 115,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 70,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 105
+    },
+    {
+      "id": 1120026,
+      "name": "パモット",
+      "types": [
+        {
+          "name": "でんき"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1120027,
+      "name": "パモ",
+      "types": [
+        {
+          "name": "でんき"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 20,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 60
+    },
+    {
+      "id": 1120028,
+      "name": "ファイアロー",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 78,
+      "attackBaseStats": 81,
+      "defenseBaseStats": 71,
+      "specialAttackBaseStats": 74,
+      "specialDefenseBaseStats": 69,
+      "speedBaseStats": 126
+    },
+    {
+      "id": 1120029,
+      "name": "ヒノヤコマ",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 62,
+      "attackBaseStats": 73,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 56,
+      "specialDefenseBaseStats": 52,
+      "speedBaseStats": 84
+    },
+    {
+      "id": 1120030,
+      "name": "ヤヤコマ",
+      "types": [
+        {
+          "name": "ノーマル"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 45,
+      "attackBaseStats": 50,
+      "defenseBaseStats": 43,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 38,
+      "speedBaseStats": 62
+    },
+    {
+      "id": 1120031,
+      "name": "ワタッコ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 75,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 55,
+      "specialDefenseBaseStats": 95,
+      "speedBaseStats": 110
+    },
+    {
+      "id": 1120032,
+      "name": "ポポッコ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 50,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1120033,
+      "name": "ハネッコ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 35,
+      "attackBaseStats": 35,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1120034,
+      "name": "エクスレッグ",
+      "types": [
+        {
+          "name": "むし"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 71,
+      "attackBaseStats": 102,
+      "defenseBaseStats": 78,
+      "specialAttackBaseStats": 52,
+      "specialDefenseBaseStats": 55,
+      "speedBaseStats": 92
+    },
+    {
+      "id": 1120035,
+      "name": "マメバッタ",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 33,
+      "attackBaseStats": 46,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 21,
+      "specialDefenseBaseStats": 25,
+      "speedBaseStats": 45
+    },
+    {
+      "id": 1120036,
+      "name": "ワナイダー",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 60,
+      "attackBaseStats": 79,
+      "defenseBaseStats": 92,
+      "specialAttackBaseStats": 52,
+      "specialDefenseBaseStats": 86,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1120037,
+      "name": "タマンチュラ",
+      "types": [
+        {
+          "name": "むし"
+        }
+      ],
+      "hitPointBaseStats": 35,
+      "attackBaseStats": 41,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 29,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 20
+    },
+    {
+      "id": 1120038,
+      "name": "パフュートン（オス）",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 110,
+      "attackBaseStats": 100,
+      "defenseBaseStats": 75,
+      "specialAttackBaseStats": 59,
+      "specialDefenseBaseStats": 80,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1120039,
+      "name": "グルトン",
+      "types": [
+        {
+          "name": "ノーマル"
+        }
+      ],
+      "hitPointBaseStats": 54,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 40,
+      "specialAttackBaseStats": 35,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1120040,
+      "name": "ウェーニバル",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "かくとう"
+        }
+      ],
+      "hitPointBaseStats": 85,
+      "attackBaseStats": 120,
+      "defenseBaseStats": 80,
+      "specialAttackBaseStats": 85,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 85
+    },
+    {
+      "id": 1120041,
+      "name": "ウェルカモ",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 65,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1120042,
+      "name": "クワッス",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 55,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 45,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 50
+    },
+    {
+      "id": 1120043,
+      "name": "ラウドボーン",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ゴースト"
+        }
+      ],
+      "hitPointBaseStats": 104,
+      "attackBaseStats": 75,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 110,
+      "specialDefenseBaseStats": 75,
+      "speedBaseStats": 66
+    },
+    {
+      "id": 1120044,
+      "name": "アチゲータ",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 81,
+      "attackBaseStats": 55,
+      "defenseBaseStats": 78,
+      "specialAttackBaseStats": 90,
+      "specialDefenseBaseStats": 58,
+      "speedBaseStats": 49
+    },
+    {
+      "id": 1120045,
+      "name": "ホゲータ",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 67,
+      "attackBaseStats": 45,
+      "defenseBaseStats": 59,
+      "specialAttackBaseStats": 63,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 36
+    },
+    {
+      "id": 1120046,
+      "name": "マスカーニャ",
+      "types": [
+        {
+          "name": "くさ"
+        },
+        {
+          "name": "あく"
+        }
+      ],
+      "hitPointBaseStats": 76,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 70,
+      "specialAttackBaseStats": 81,
+      "specialDefenseBaseStats": 70,
+      "speedBaseStats": 123
+    },
+    {
+      "id": 1120047,
+      "name": "ニャローテ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 61,
+      "attackBaseStats": 80,
+      "defenseBaseStats": 63,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 63,
+      "speedBaseStats": 83
+    },
+    {
+      "id": 1120048,
+      "name": "ニャオハ",
+      "types": [
+        {
+          "name": "くさ"
+        }
+      ],
+      "hitPointBaseStats": 40,
+      "attackBaseStats": 61,
+      "defenseBaseStats": 54,
+      "specialAttackBaseStats": 45,
+      "specialDefenseBaseStats": 45,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1120077,
+      "name": "リザードン",
+      "types": [
+        {
+          "name": "ほのお"
+        },
+        {
+          "name": "ひこう"
+        }
+      ],
+      "hitPointBaseStats": 78,
+      "attackBaseStats": 84,
+      "defenseBaseStats": 78,
+      "specialAttackBaseStats": 109,
+      "specialDefenseBaseStats": 85,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1120078,
+      "name": "リザード",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 58,
+      "attackBaseStats": 64,
+      "defenseBaseStats": 58,
+      "specialAttackBaseStats": 80,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 80
+    },
+    {
+      "id": 1120079,
+      "name": "ヒトカゲ",
+      "types": [
+        {
+          "name": "ほのお"
+        }
+      ],
+      "hitPointBaseStats": 39,
+      "attackBaseStats": 52,
+      "defenseBaseStats": 43,
+      "specialAttackBaseStats": 60,
+      "specialDefenseBaseStats": 50,
+      "speedBaseStats": 65
+    },
+    {
+      "id": 1126185,
+      "name": "イルカマン（マイティフォルム）",
+      "types": [
+        {
+          "name": "みず"
+        }
+      ],
+      "hitPointBaseStats": 100,
+      "attackBaseStats": 160,
+      "defenseBaseStats": 97,
+      "specialAttackBaseStats": 106,
+      "specialDefenseBaseStats": 87,
+      "speedBaseStats": 100
+    },
+    {
+      "id": 1126377,
+      "name": "ヌオー",
+      "types": [
+        {
+          "name": "みず"
+        },
+        {
+          "name": "じめん"
+        }
+      ],
+      "hitPointBaseStats": 95,
+      "attackBaseStats": 85,
+      "defenseBaseStats": 85,
+      "specialAttackBaseStats": 65,
+      "specialDefenseBaseStats": 65,
+      "speedBaseStats": 35
+    },
+    {
+      "id": 1128695,
+      "name": "ガラルニャース",
+      "types": [
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 50,
+      "attackBaseStats": 65,
+      "defenseBaseStats": 55,
+      "specialAttackBaseStats": 40,
+      "specialDefenseBaseStats": 40,
+      "speedBaseStats": 40
+    },
+    {
+      "id": 1128696,
+      "name": "ニャイキング",
+      "types": [
+        {
+          "name": "はがね"
+        }
+      ],
+      "hitPointBaseStats": 70,
+      "attackBaseStats": 110,
+      "defenseBaseStats": 100,
+      "specialAttackBaseStats": 50,
+      "specialDefenseBaseStats": 60,
+      "speedBaseStats": 50
+    }
+  ]
+}

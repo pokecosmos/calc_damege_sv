@@ -1,3 +1,29 @@
+// 起動時の処理
+window.onload = function(){
+  addOption("select_item_a1");
+}
+
+//--リスト追加
+//--攻撃側 持ち物リスト
+//function addList(hoge){
+//  for(int k=0;k<=item_a1.length;i++){
+//    addOption(hoge,item_a1[i].name);
+//  }
+//}
+
+function addOption(hoge1) {
+ // selectタグを取得する
+ var select = document.getElementById(hoge1);
+ // optionタグを作成する
+ var option = document.createElement("option");
+ // optionタグのテキストを4に設定する
+ option.text = 4;
+ // optionタグのvalueを4に設定する
+ option.value = 4;
+ // selectタグの子要素にoptionタグを追加する
+ select.appendChild(option);
+}
+
 
 //ボタンで数値代入
 function setvalue(elm,num){

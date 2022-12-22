@@ -1,6 +1,6 @@
 // 起動時の処理
-window.onload = function(){
-  addOption("select_item_a1");
+window.onload = () => {
+  addOption("select_item_a1", ability.ability_a1);
 }
 
 //--リスト追加
@@ -11,17 +11,26 @@ window.onload = function(){
 //  }
 //}
 
-function addOption(hoge1) {
- // selectタグを取得する
- var select = document.getElementById(hoge1);
- // optionタグを作成する
- var option = document.createElement("option");
- // optionタグのテキストを4に設定する
- option.text = 4;
- // optionタグのvalueを4に設定する
- option.value = 4;
- // selectタグの子要素にoptionタグを追加する
- select.appendChild(option);
+/**
+ * selectIdに指定したselect要素にoptionArrayの値をoptionとして追加する
+ * @param selectId 要素を追加するselectのid
+ * @param optionArray 追加する要素の配列
+ */
+addOption = (selectId, optionArray) => {
+  // selectタグを取得する
+  const select = document.getElementById(selectId);
+
+  optionArray.forEach(element => {
+    // optionタグを作成する
+    const option = document.createElement("option");
+    // optionタグのテキストを4に設定する
+    option.text = element.name;
+    // optionタグのvalueを4に設定する
+    // FIXME: 仮でvalueにもnameを設定
+    option.value = element.name;
+    // selectタグの子要素にoptionタグを追加する
+    select.appendChild(option);
+  });
 }
 
 

@@ -1,76 +1,81 @@
-$(function(){
-	$('#pokename_1').autocomplete({
-		source: function(request, response){
-			var suggests = [];
+$(() => {
+  $('#pokename_1').autocomplete({
+    source: (request, response) => {
+      const suggests = [];
+      const nameHira = request.term;
+      const nameKata = this.hiraToKana(nameHira);
 
-			//pokemonの中身をすべてチェック
-			$.each(pokemon, function(i, values){
-				var katakana = values[0];				//ポケモン名
-				var hiragana = kanaToHira(katakana);	//ポケモン名のカタカナ部分をひらがな変換
+      // ポケモン一覧からカタカナで名前検索
+      pokemonAll.pokemons.forEach(element => {
+        const name = element.name;
+        //入力された文字列がカタカナのポケモン名とひらがなのポケモン名と前方一致するかチェック
+        if (name.indexOf(nameHira) === 0 || name.indexOf(nameKata) === 0) {
+          // 検索に一致したら候補に追加
+          suggests.push(name);
+        }
+      });
 
-				//入力された文字列がカタカナのポケモン名とひらがなのポケモン名と前方一致するかチェック
-				if(katakana.indexOf(request.term) === 0 || hiragana.indexOf(request.term) === 0){
-					//候補に追加
-					suggests.push(katakana);
-				}
-			});
+      //ヒットしたポケモン名一覧を候補として返す
+      response(suggests);
+    },
+    autoFocus: true,
+    delay: 300,
+    minLength: 1,
+    select: (e, ui) => {
+      // 選択された候補をテキストボックスのvalueにセットする
+      $('#pokename_1').val(ui.item.value);
 
-			//ヒットしたポケモン名を候補として返す
-			response(suggests);
-		  },
-		autoFocus: true,
-		delay: 300,
-		minLength: 1,
-		select: function(e, ui){
-			//選択された候補をテキストボックスのvalueにセットする
-			//本来必要無いがこの処理を入れないとクリックでの選択時にsetpokemonが上手く動作しない
-			$('#pokename_1').val(ui.item.value);
-
-			//候補が選択されたらsetpokemon関数を呼び出す
-			setpokemon(1);
-		}
-	});
+      // 候補が選択されたらsetpokemon関数を呼び出す
+      setpokemon('pokename_1');
+    }
+  });
 })
 
-$(function(){
-	$('#pokename_2').autocomplete({
-		source: function(request, response){
-			var suggests = [];
+$(() => {
+  $('#pokename_2').autocomplete({
+    source: (request, response) => {
+      const suggests = [];
+      const nameHira = request.term;
+      const nameKata = this.hiraToKana(nameHira);
 
-			//pokemonの中身をすべてチェック
-			$.each(pokemon, function(i, values){
-				var katakana = values[0];				//ポケモン名
-				var hiragana = kanaToHira(katakana);	//ポケモン名のカタカナ部分をひらがな変換
+      // ポケモン一覧からカタカナで名前検索
+      pokemonAll.pokemons.forEach(element => {
+        const name = element.name;
+        //入力された文字列がカタカナのポケモン名とひらがなのポケモン名と前方一致するかチェック
+        if (name.indexOf(nameHira) === 0 || name.indexOf(nameKata) === 0) {
+          // 検索に一致したら候補に追加
+          suggests.push(name);
+        }
+      });
 
-				//入力された文字列がカタカナのポケモン名とひらがなのポケモン名と前方一致するかチェック
-				if(katakana.indexOf(request.term) === 0 || hiragana.indexOf(request.term) === 0){
-					//候補に追加
-					suggests.push(katakana);
-				}
-			});
+      //ヒットしたポケモン名一覧を候補として返す
+      response(suggests);
+    },
+    autoFocus: true,
+    delay: 300,
+    minLength: 1,
+    select: (e, ui) => {
+      // 選択された候補をテキストボックスのvalueにセットする
+      $('#pokename_2').val(ui.item.value);
 
-			//ヒットしたポケモン名を候補として返す
-			response(suggests);
-		  },
-		autoFocus: true,
-		delay: 300,
-		minLength: 1,
-		select: function(e, ui){
-			//選択された候補をテキストボックスのvalueにセットする
-			//本来必要無いがこの処理を入れないとクリックでの選択時にsetpokemonが上手く動作しない
-			$('#pokename_2').val(ui.item.value);
-
-			//候補が選択されたらsetpokemon関数を呼び出す
-			setpokemon(2);
-		}
-	});
+      //候補が選択されたらsetpokemon関数を呼び出す
+      setpokemon('pokename_2');
+    }
+  });
 })
 
+// ひらがな→カタカナ変換
+this.hiraToKana = (str) => {
+  return str.replace(/[\u3041-\u3096]/g, (match) => {
+    const chr = match.charCodeAt(0) + 0x60;
+    return String.fromCharCode(chr);
+  });
+}
 
-//カタカナ→ひらがな変換
-function kanaToHira(str) {
-    return str.replace(/[\u30a1-\u30f6]/g, function(match) {
-        var chr = match.charCodeAt(0) - 0x60;
-        return String.fromCharCode(chr);
-    });
+// カタカナ→ひらがな変換
+this.kanaToHira = (str) => {
+  return str.replace(/[\u30a1-\u30f6]/g, (match) => {
+    const chr = match.charCodeAt(0) - 0x60;
+    return String.fromCharCode(chr);
+  });
 }

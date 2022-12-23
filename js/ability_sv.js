@@ -964,7 +964,7 @@ const ability = {
       "check": 0
     }
   ],
-  "item_a1": [
+  "item_b1": [
     {
       "name": "タイプ半減きのみ",
       "explanation": "[弱点技 ダメージ1/2倍]",
@@ -983,6 +983,11 @@ const ability = {
     {
       "name": "ひかりのこな",
       "explanation": "[相手の命中率 0.9倍]",
+      "check": 0
+    },
+    {
+      "name": "ブーストエナジー",
+      "explanation": "[こだいかっせい/クォークチャージ 発動]",
       "check": 0
     },
     {

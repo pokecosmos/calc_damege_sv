@@ -42,26 +42,32 @@ function setvalue(elm,num){
 }
 
 
-//種族値を代入する
-function setpokemon(num){
-	mega_button(num);
-	if(num1==1){
-		for(i=0; i<pokemon.length; i++){
-			if(pokemon[i][0]==document.nForm.elements['pokename'].value){
-				//document.nForm.elements[sn[1]].value = pokemon[i][2];
-				break;
-			}
-		}
-	}else if(num1==2){
-		for(i=0; i<pokemon.length; i++){
-			if(pokemon[i][0]==document.nForm.elements['pokename'].value){
-				//document.nForm.elements[sn[1]].value = pokemon[i][1];
-				//document.nForm.elements[sn[3]].value = pokemon[i][3];
-				//document.nForm.elements[sn[5]].value = pokemon[i][6];
-				break;
-			}
-		}
-	}
+/**
+ * ポケモン名の変更を検知し、種族値を代入する関数
+ * @param {string} 変更を検知するinputのID
+ */
+setPokemon = (inputId) => {
+  // mega_button(num1);
+  // inputからポケモン名を取得する
+  const inputValue = document.nForm.elements[inputId].value;
+
+  // 入力されたポケモン名から種族値などを検索する
+  const selectedPokemon = pokemonAll.pokemons.find(pokemon => {
+    return pokemon.name === inputValue;
+  });
+
+  if (selectedPokemon) {
+    switch (inputId) {
+      case 'pokename_1':
+        console.log(`攻撃種族値:${selectedPokemon.attackBaseStats}, 特攻種族値${selectedPokemon.specialAttackBaseStats}`);
+        break;
+      case 'pokename_2':
+        console.log(`防御種族値:${selectedPokemon.defenseBaseStats}, 特防種族値${selectedPokemon.specialDefenseBaseStats}`);
+        break;
+      default:
+        break;
+    }
+  }
 }
 
 

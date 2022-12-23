@@ -30,6 +30,7 @@ addOption = (selectId, optionArray) => {
 }
 
 
+
 //ボタンで数値代入
 function setvalue(elm,num){
 	//document.nForm.elements[elm].value = parseInt(num);
@@ -133,4 +134,32 @@ function megachange(num, num2) {
   }
 }
 
+//詳細設定ボタン1 表示・非表示
+//削除方法未定、チェックボックスのサイズが合わない。
+function syousai_table(){
+  var table = document.getElementById('syousai_1');
+  var newRow = table.insertRow();
+  var newCell = newRow.insertCell();
+  
+  var newText = document.createTextNode('パワートリック');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  //checkbox.id = 'car';
+  //checkbox.name = 'interest';
+  //checkbox.value = 'car';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('じゅうでん');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  //checkbox.id = 'car';
+  //checkbox.name = 'interest';
+  //checkbox.value = 'car';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+}
 

@@ -112,8 +112,17 @@ p.p18 {
 p.p19 {
 	padding:0px 10px; /*余白の設定*/
 }
-input{
+input.number{
 	width: 47px;
+}
+input.type1{
+	width: 47px;
+}
+input.type2{
+	width: 47px;
+}
+input.radio{
+	width: 20px;
 }
 input.name{
 	width: 160px;
@@ -140,6 +149,7 @@ input.mega{
 	height: 26px;
 	visibility: hidden;
 }
+
 
 /*-- スマホ版非表示設定  --*/
 @media screen and (max-width: 500px){

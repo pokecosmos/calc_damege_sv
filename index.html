@@ -32,11 +32,11 @@
 
 <table id="ModeSwitch" border="1" height="60">
 <tr>
-<td id="SingleBattleButton" width="350">
-<input type="radio" name="BattleMode" id="SingleBattle" value="1" checked><label for="SingleBattle">シングルバトル、ダブルバトル(単体攻撃)</td>
+<td id="SingleBattleButton" width="280">
+<input type="radio" class="radio" name="BattleMode" id="SingleBattle" value="1" checked><label for="SingleBattle">シングルバトル、ダブルバトル(単体攻撃)</td>
 </label>
-<td id="DoubleBattleButton" width="250">
-<input type="radio" name="BattleMode" id="DoubleBattle" value="2"><label for="DoubleBattle">ダブルバトル(複数攻撃)</label>
+<td id="DoubleBattleButton" width="210">
+<input type="radio" class="radio" name="BattleMode" id="DoubleBattle" value="2"><label for="DoubleBattle">ダブルバトル(複数攻撃)</label>
 </td></tr>
 </table>
 <br/>
@@ -55,8 +55,8 @@
 </td></tr>
 </table>
 <table border="0" width="500">
-<tr><td> Lv. <input type="number" name="L0" value="50" min="1" max="100" step="1"  onclick="" onblur=""><input type="button" class="button" value ="50" onclick="setvalue('L0', 50);"><input type="button" class="button" value ="100" onclick="setvalue('L0', 100);">
-</td><td>タイプ：<input value="--"> <input value="--"></td><td><input class="check" type="checkbox">テラスタル：<select name="Terastal_p1" size="1" onChange="">
+<tr><td> Lv. <input type="number" name="L0" value="50" class="number" min="1" max="100" step="1"  onclick="" onblur=""><input type="button" class="button" value ="50" onclick="setvalue('L0', 50);"><input type="button" class="button" value ="100" onclick="setvalue('L0', 100);">
+</td><td>タイプ：<input value="--"  class="type1"> <input value="--" class="type1"></td><td><input class="check" type="checkbox">テラスタル：<select name="Terastal_p1" class="type2" size="1" onChange="">
 <option value="0" selected="selected">--</option><option value="1">ノーマル</option><option value="2">かくとう</option><option value="3">どく</option><option value="4">じめん</option><option value="5">ひこう</option><option value="6">むし</option><option value="7">いわ</option><option value="8">ゴースト</option><option value="9">はがね</option><option value="10">ほのお</option><option value="11">みず</option><option value="12">でんき</option><option value="13">くさ</option><option value="14">こおり</option><option value="15">エスパー</option><option value="16">ドラゴン</option><option value="17">あく</option><option value="18">フェアリー</option>
 </select></td></tr>
 </table></p></td></tr></table>
@@ -68,18 +68,19 @@
 <option value="1">すてみタックル</option>
 </select></td></tr></tr>
 <tr><td>
-<table border="1" id="acSwitch">
+<div class="radiobutton">
+<table border="0" id="acSwitch">
 <tr>
 <td>
-<input type="radio" name="ac_button" id="buturi" value="1" checked><label for="buturi">物理</label></td>
+<input type="radio" class="radio" name="ac_button" id="buturi" value="1" checked><label for="buturi">物理</label></td>
 <td>
-<input type="radio" name="ac_button" id="tokusyu" value="2" required="required"><label for="tokusyu">特殊</label></td></tr>
-</table>
+<input type="radio" class="radio" name="ac_button" id="tokusyu" value="2" required="required"><label for="tokusyu">特殊</label></td></tr>
+</table></div>
 
 </td><td>技タイプ：<select name="waza_type" size="1" onChange="">
 <option value="0" selected="selected">--</option><option value="1">ノーマル</option><option value="2">かくとう</option><option value="3">どく</option><option value="4">じめん</option><option value="5">ひこう</option><option value="6">むし</option><option value="7">いわ</option><option value="8">ゴースト</option><option value="9">はがね</option><option value="10">ほのお</option><option value="11">みず</option><option value="12">でんき</option><option value="13">くさ</option><option value="14">こおり</option><option value="15">エスパー</option><option value="16">ドラゴン</option><option value="17">あく</option><option value="18">フェアリー</option>
 </select></td></tr>
-<tr><td>威力：<input type="number" name="iryoku" value="120" min="1" max="999"> <input type="button" class="button" value ="90" onclick="setvalue('iryoku', 90);"><input type="button" class="button" value ="120" onclick="setvalue('iryoku', 120);"></td><td>命中率：<input type="number" name="accuracy" value="100" min="1" max="100"> <input type="button" class="button" value ="100" onclick="setvalue('accuracy', 100);"></td>
+<tr><td>威力：<input type="number" class="number" name="iryoku" value="120" min="1" max="999"> <input type="button" class="button" value ="90" onclick="setvalue('iryoku', 90);"><input type="button" class="button" value ="120" onclick="setvalue('iryoku', 120);"></td><td>命中率：<input type="number" class="number" name="accuracy" value="100" min="1" max="100"> <input type="button" class="button" value ="100" onclick="setvalue('accuracy', 100);"></td>
 <td>急所補正：<select name="critical" size="1" onChange="scalc()"><option value="0" selected="selected">--</option><option value="1">＋1</option><option value="2">必急所</option><option value="3">無視</option></select></td></tr>
 
 <tr><td align="center"><p class="p3">ランク</p></td><td>攻撃R：<select name="rank_attack" size="1" onChange="scalc()"><option value="6">+6</option><option value="5">+5</option><option value="4">+4</option><option value="3">+3</option><option value="2">+2</option><option value="1">+1</option><option value="0" selected="selected">--</option><option value="-1">-1</option><option value="-2">-2</option><option value="-3">-3</option><option value="-4">-4</option><option value="-5">-5</option><option value="-6">-6</option></select><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td>
@@ -88,8 +89,8 @@
 
 <tr><td rowspan="2" align="center"><p class="p4">攻撃</p></td><td colspan="3">
 <table border="0">
-<td>実数値：</td><td><input id="real-value-attack" type="number" value="100" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td>性格：</td><td bgcolor="#FFBEDA">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF">↓<input class="check" type="checkbox"></td></tr>
-<tr><td>努力値：</td><td><input type="number" name="d_a1" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_a1', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_a1', 252);"></td><td colspan="3">個体値：<input type="number" name="k_a1" value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_a1', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_a1', 31);"></td></tr>
+<td>実数値：</td><td><input id="real-value-attack" type="number" class="number" value="100" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td>性格：</td><td bgcolor="#FFBEDA">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF">↓<input class="check" type="checkbox"></td></tr>
+<tr><td>努力値：</td><td><input type="number" class="number" name="d_a1" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_a1', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_a1', 252);"></td><td colspan="3">個体値：<input type="number" class="number" name="k_a1" value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_a1', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_a1', 31);"></td></tr>
 </table>
 </td>
 </table>
@@ -105,14 +106,15 @@
 </select></td></tr>
 </table>
 <table border="0"><tr><td><p class="p7">
-<table border="0"><tr><td>
-<input type="button" value ="詳細設定を全て表示" class="jyotai"></td><td><input class="check" type="checkbox">特性なし</td><td><input class="check" type="checkbox">てだすけ</td><td><input class="check" type="checkbox">やけど</td></tr>
+<table border="0" id="syousai_1"><tr><td>
+<input type="button" value ="詳細設定を全て表示" class="jyotai" onclick="syousai_table()"></td><td><input class="check" type="checkbox">特性なし</td><td><input class="check" type="checkbox">てだすけ</td><td><input class="check" type="checkbox">やけど</td></tr>
 <tr><td><input class="check" type="checkbox">でんそうこうげき</td><td><input class="check" type="checkbox">もえつきる</td><td><input class="check" type="checkbox">みずびたし</td><td><input class="check" type="checkbox">まほうのこな</td></tr>
 <tr><td><input class="check" type="checkbox">パワートリック</td><td><input class="check" type="checkbox">じゅうでん</td></tr>
-</table></p></td></tr>
+</table>
+</p></td></tr>
 </table>
 <table border="0">
-<tr><td align="center"><p class="p8">他のポケモンの特性</p></td><td>
+<tr><td align="center"><p class="p8">味方の特性</p></td><td>
 <select id="select_ability_a2" size="1" onChange="scalc()">
 <option value="2" selected="selected">--</option>
 </select></td></tr>
@@ -134,8 +136,8 @@
 <input type="button" class="mega" name="mega1b" value="メガ" onclick="megachange(1,2)"></td></tr></table>
 </td></tr></table>
 <table border="0" width="500">
-<tr><td> Lv. <input type="number" name="L1" value="50" min="1" max="100" step="1"  onclick="" onblur=""><input type="button" class="button" value ="50" onclick="setvalue('L1', 50);"><input type="button" class="button" value ="100" onclick="setvalue('L1', 100);">
-</td><td>タイプ：<input value="--"> <input value="--"></td><td><input class="check" type="checkbox">テラスタル：<select name="Terastal_p2" size="1" onChange="">
+<tr><td> Lv. <input type="number" class="number" name="L1" value="50" min="1" max="100" step="1"  onclick="" onblur=""><input type="button" class="button" value ="50" onclick="setvalue('L1', 50);"><input type="button" class="button" value ="100" onclick="setvalue('L1', 100);">
+</td><td>タイプ：<input value="--" class="type1"> <input value="--" class="type1"></td><td><input class="check" type="checkbox" class="type2">テラスタル：<select name="Terastal_p2" size="1" onChange="">
 <option value="0" selected="selected">--</option><option value="1">ノーマル</option><option value="2">かくとう</option><option value="3">どく</option><option value="4">じめん</option><option value="5">ひこう</option><option value="6">むし</option><option value="7">いわ</option><option value="8">ゴースト</option><option value="9">はがね</option><option value="10">ほのお</option><option value="11">みず</option><option value="12">でんき</option><option value="13">くさ</option><option value="14">こおり</option><option value="15">エスパー</option><option value="16">ドラゴン</option><option value="17">あく</option><option value="18">フェアリー</option>
 </select></td></tr>
 </table></p></td></tr></table>
@@ -145,10 +147,10 @@
 <td colspan="3">回避R：<select name="Avoidance" size="1" onChange="scalc()"><option value="6">+6</option><option value="5">+5</option><option value="4">+4</option><option value="3">+3</option><option value="2">+2</option><option value="1">+1</option><option value="0" selected="selected">--</option><option value="-1">-1</option><option value="-2">-2</option><option value="-3">-3</option><option value="-4">-4</option><option value="-5">-5</option><option value="-6">-6</option></select><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td></td>
 </tr>
 
-<tr><td rowspan="2" align="center"><p class="p11">HP</p></td><td>実数値：</td><td><input type="number" value="175" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td colspan="4"><input class="check" type="checkbox">残りHP指定：<input type="number" value="" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td></tr>
-<tr><td>努力値：</td><td><input type="number" name="d_h2" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_h2', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_h2', 252);"></td><td colspan="3">個体値：<input type="number" name="k_h2" value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_h2', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_h2', 31);"></td></tr>
-<tr><td rowspan="2" align="center"><p class="p12">防御</p></td><td>実数値：</td><td><input id="real-value-defense" type="number" value="120" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td width="45">性格：</td><td bgcolor="#FFBEDA" width="55">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF" width="55">↓<input class="check" type="checkbox"></td></tr>
-<tr><td>努力値：</td><td><input type="number" name="d_b2" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_b2', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_b2', 252);"></td><td colspan="3">個体値：<input type="number" name="k_b2"  value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_b2', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_b2', 31);"></td></tr>
+<tr><td rowspan="2" align="center"><p class="p11">HP</p></td><td>実数値：</td><td><input type="number" class="number" value="175" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td colspan="4"><input class="check" type="checkbox">残りHP指定：<input type="number" class="number" value="" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td></tr>
+<tr><td>努力値：</td><td><input type="number" class="number" name="d_h2" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_h2', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_h2', 252);"></td><td colspan="3">個体値：<input type="number" class="number" name="k_h2" value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_h2', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_h2', 31);"></td></tr>
+<tr><td rowspan="2" align="center"><p class="p12">防御</p></td><td>実数値：</td><td><input id="real-value-defense" class="number" type="number" value="120" min="1" max="999"><input type="button" class="updown" value ="▲" onclick="" ><input type="button" class="updown" value ="▼" onclick=""></td><td width="45">性格：</td><td bgcolor="#FFBEDA" width="55">↑<input class="check" type="checkbox"></td><td bgcolor="#BAD3FF" width="55">↓<input class="check" type="checkbox"></td></tr>
+<tr><td>努力値：</td><td><input type="number" class="number" name="d_b2" value="252" min="-999" max="999"><input type="button" class="button" value ="0" onclick="setvalue('d_b2', 0);"><input type="button" class="button" value ="252" onclick="setvalue('d_b2', 252);"></td><td colspan="3">個体値：<input type="number" class="number" name="k_b2"  value="31" min="0" max="31"><input type="button" class="button" value ="0" onclick="setvalue('k_b2', 0);"><input type="button" class="button" value ="31" onclick="setvalue('k_b2', 31);"></td></tr>
 </table>
 
 <table border="0">
@@ -163,16 +165,15 @@
 </table>
 
 <table border="0"><tr><td><p class="p15">
-<table border="0">
+<table border="0" id="syousai_2">
 <tr><td><input type="button" value ="詳細設定を全て表示" class="jyotai"></td><td><input class="check" type="checkbox">特性なし</td><td colspan="2"><input class="check" type="checkbox">リフレクター/オーロラベール</td></tr>
-
 <tr><td><input class="check" type="checkbox">でんそうこうげき</td><td><input class="check" type="checkbox">もえつきる</td><td><input class="check" type="checkbox">みずびたし</td><td><input class="check" type="checkbox">まほうのこな</td></tr>
 <tr><td><input class="check" type="checkbox">でんじふゆう</td><td><input class="check" type="checkbox">はねやすめ</td><td><input class="check" type="checkbox">うちおとす</td><td><input class="check" type="checkbox">ちいさくなる</td></tr>
 <tr><td><input class="check" type="checkbox">パワートリック</td><td colspan="2"><input class="check" type="checkbox">タールショット</td></tr>
 </table></p></td></tr>
 </table>
 <table border="0">
-<tr><td align="center"><p class="p16">他のポケモンの特性</p></td><td>
+<tr><td align="center"><p class="p16">味方の特性</p></td><td>
 <select id="select_ability_b2" size="1" onChange="scalc()">
 <option value="2" selected="selected">--</option>
 </select></td></tr>

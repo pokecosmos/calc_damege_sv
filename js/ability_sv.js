@@ -357,7 +357,7 @@ const ability = {
     },
     {
       "name": "へんげんじざい",
-      "explanation": "[場に出てから一回目の行動時に技と同じタイプになる]",
+      "explanation": "[行動時に技と同じタイプになる]",
       "check": 1
     },
     {

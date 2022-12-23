@@ -1,15 +1,12 @@
 // 起動時の処理
 window.onload = () => {
-  addOption("select_item_a1", ability.ability_a1);
+  addOption("select_ability_a1", ability.ability_a1);
+  addOption("select_ability_a2", ability.ability_a2);
+  addOption("select_ability_b1", ability.ability_b1);
+  addOption("select_ability_b2", ability.ability_b2);
+  addOption("select_item_a1", ability.item_a1);
+  addOption("select_item_b1", ability.item_b1);
 }
-
-//--リスト追加
-//--攻撃側 持ち物リスト
-//function addList(hoge){
-//  for(int k=0;k<=item_a1.length;i++){
-//    addOption(hoge,item_a1[i].name);
-//  }
-//}
 
 /**
  * selectIdに指定したselect要素にoptionArrayの値をoptionとして追加する
@@ -23,9 +20,8 @@ addOption = (selectId, optionArray) => {
   optionArray.forEach(element => {
     // optionタグを作成する
     const option = document.createElement("option");
-    // optionタグのテキストを4に設定する
-    option.text = element.name;
-    // optionタグのvalueを4に設定する
+    // optionタグのテキストを設定する
+    option.text =element.name + "：" + element.explanation;
     // FIXME: 仮でvalueにもnameを設定
     option.value = element.name;
     // selectタグの子要素にoptionタグを追加する

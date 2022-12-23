@@ -2,7 +2,7 @@ const ability = {
   "ability_a1": [
     {
       "name": "アナライズ",
-      "explanation": "(+行動順が最後のとき)　[威力 1.3倍]",
+      "explanation": "(+行動順が最後) [威力1.3倍]",
       "check": 1
     },
     {
@@ -17,17 +17,17 @@ const ability = {
     },
     {
       "name": "いかりのつぼ",
-      "explanation": "(+技を急所に受けたとき)　[攻撃ランクが最大まで上がる]",
+      "explanation": "(+急所被弾) [攻撃ランクが最大まで上がる]",
       "check": 1
     },
     {
       "name": "いろめがね",
-      "explanation": "[効果がいまひとつの攻撃技 威力 2倍]",
+      "explanation": "[効果がいまひとつの攻撃技 威力2倍]",
       "check": 1
     },
     {
       "name": "いわはこび",
-      "explanation": "[岩技 威力 1.5倍]",
+      "explanation": "[岩技 威力1.5倍]",
       "check": 1
     },
     {
@@ -37,7 +37,7 @@ const ability = {
     },
     {
       "name": "エレキスキン",
-      "explanation": "[ノーマル技→電気タイプ化＆威力 1.2倍]",
+      "explanation": "[ノーマル技→電気タイプ化＆威力1.2倍]",
       "check": 1
     },
     {
@@ -67,7 +67,7 @@ const ability = {
     },
     {
       "name": "かちき",
-      "explanation": "(相手の技や特性で能力ランクが下がったとき)　[特攻ランクが2段階上昇する]",
+      "explanation": "(能力ランク下降時) [特攻ランク 2段階上昇]",
       "check": 0
     },
     {
@@ -77,7 +77,7 @@ const ability = {
     },
     {
       "name": "きもったま",
-      "explanation": "[ゴーストタイプにもノーマル技・かくとう技があたる,相手の「いかく」無効]",
+      "explanation": "[ゴーストにもノーマル・格闘技が命中, いかく無効]",
       "check": 0
     },
     {
@@ -87,12 +87,12 @@ const ability = {
     },
     {
       "name": "きれあじ",
-      "explanation": "[斬撃技 威力 1.5倍]",
+      "explanation": "[斬撃技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "クォークチャージ",
-      "explanation": "(+ブーストエナジー持ち,またはエレキフィールドのとき)[最も高い能力 1.3倍]",
+      "explanation": "(+発動時) [最も高い能力 1.3倍]",
       "check": 1
     },
     {
@@ -107,22 +107,22 @@ const ability = {
     },
     {
       "name": "げきりゅう",
-      "explanation": "(+自分のHPが1/3以下のとき)　[水技 威力 1.5倍]",
+      "explanation": "(+自分のHPが1/3以下) [水技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "こだいかっせい",
-      "explanation": "(+ブーストエナジー持ち,または晴れのとき)[最も高い能力 1.3倍]",
+      "explanation": "(+発動時) [最も高い能力 1.3倍]",
       "check": 1
     },
     {
       "name": "ごりむちゅう",
-      "explanation": "[物理技 威力 1.5倍]",
+      "explanation": "[物理技 威力1.5倍]",
       "check": 0
     },
     {
       "name": "こんじょう",
-      "explanation": "(+状態異常のとき)　[攻撃 1.5倍]",
+      "explanation": "(+自分が状態異常) [攻撃1.5倍]",
       "check": 1
     },
     {
@@ -132,7 +132,7 @@ const ability = {
     },
     {
       "name": "サンパワー",
-      "explanation": "(+晴れのとき)　[特攻 1.5倍]",
+      "explanation": "(+晴れ) [特攻1.5倍]",
       "check": 1
     },
     {
@@ -147,17 +147,17 @@ const ability = {
     },
     {
       "name": "しんりょく",
-      "explanation": "(+自分のHPが1/3以下のとき)　[草技 威力 1.5倍]",
+      "explanation": "(+自分のHPが1/3以下) [草技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "すいほう",
-      "explanation": "[水技威力2倍]",
+      "explanation": "[水技 威力2倍]",
       "check": 1
     },
     {
       "name": "スカイスキン",
-      "explanation": "[ノーマル技→飛行タイプ化＆威力 1.2倍]",
+      "explanation": "[ノーマル技→飛行タイプ化＆威力1.2倍]",
       "check": 1
     },
     {
@@ -167,12 +167,12 @@ const ability = {
     },
     {
       "name": "すてみ",
-      "explanation": "[すてみ技 威力 1.2倍]",
+      "explanation": "[すてみ技 威力1.2倍]",
       "check": 1
     },
     {
       "name": "スナイパー",
-      "explanation": "[急所のとき 1.5倍→2.25倍]",
+      "explanation": "[急所補正 1.5倍→2.25倍]",
       "check": 0
     },
     {
@@ -182,7 +182,7 @@ const ability = {
     },
     {
       "name": "すなのちから",
-      "explanation": "(+砂嵐のとき)　[地面技,岩技,鋼技 1.3倍]",
+      "explanation": "(+砂嵐) [地面技,岩技,鋼技 威力1.3倍]",
       "check": 1
     },
     {
@@ -192,7 +192,7 @@ const ability = {
     },
     {
       "name": "するどいめ",
-      "explanation": "[命中率ランクが下がらない,相手の回避ランクの影響を受けない]",
+      "explanation": "[相手の回避ランクの影響を受けない]",
       "check": 0
     },
     {
@@ -202,22 +202,22 @@ const ability = {
     },
     {
       "name": "せいしんりょく",
-      "explanation": "[相手の「いかく」無効]",
+      "explanation": "[いかく無効]",
       "check": 0
     },
     {
       "name": "そうだいしょう",
-      "explanation": "[ひんしなった味方ポケモン1体につき 10% 威力上昇]",
+      "explanation": "[瀕死なった味方1体につき 10% 威力上昇]",
       "check": 2
     },
     {
       "name": "ちからずく",
-      "explanation": "[追加効果のある技 威力 1.3倍]",
+      "explanation": "[追加効果のある技 威力1.3倍]",
       "check": 1
     },
     {
       "name": "ちからもち",
-      "explanation": "[攻撃 2倍]",
+      "explanation": "[攻撃2倍]",
       "check": 0
     },
     {
@@ -227,12 +227,12 @@ const ability = {
     },
     {
       "name": "テクニシャン",
-      "explanation": "[威力60以下の技威力 1.5倍]",
+      "explanation": "[威力60以下の技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "てつのこぶし",
-      "explanation": "[こぶし技 威力 1.2倍]",
+      "explanation": "[こぶし技 威力1.2倍]",
       "check": 1
     },
     {
@@ -242,32 +242,27 @@ const ability = {
     },
     {
       "name": "とうそうしん",
-      "explanation": "(+相手ポケモンが同性)　[攻撃/特攻 1.25倍]",
-      "check": 1
-    },
-    {
-      "name": "とうそうしん(異)",
-      "explanation": "(+相手ポケモンが異性)　[攻撃/特攻 0.75倍]",
+      "explanation": "(+異性/同性) [攻撃・特攻 1.25倍/0.75倍]",
       "check": 1
     },
     {
       "name": "どくぼうそう",
-      "explanation": "(+毒のとき)　[物理技 威力 1.5倍]",
+      "explanation": "(+自分が毒) [物理技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "トランジスタ",
-      "explanation": "[電気技 威力 1.5倍]",
+      "explanation": "[電気技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "どんかん",
-      "explanation": "[相手の「いかく」無効]",
+      "explanation": "[いかく無効]",
       "check": 0
     },
     {
       "name": "ねつぼうそう",
-      "explanation": "(やけどのとき)[特殊技 1.5倍]",
+      "explanation": "(+自分が火傷) [特殊技 威力1.5倍]",
       "check": 1
     },
     {
@@ -282,42 +277,42 @@ const ability = {
     },
     {
       "name": "ノーマルスキン",
-      "explanation": "[全ての技→ノーマルタイプ化＆威力 1.2倍]",
+      "explanation": "[全ての技→ノーマルタイプ化＆威力1.2倍]",
       "check": 0
     },
     {
       "name": "はがねつかい",
-      "explanation": "[鋼技 威力 1.5倍]",
+      "explanation": "[鋼技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "はがねのせいしん",
-      "explanation": "[鋼技 威力 1.5倍]",
+      "explanation": "[鋼技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "ハドロンエンジン",
-      "explanation": "[戦闘に出るとエレキフィールドにする, エレキフィールドのとき 特攻 4/3倍]",
+      "explanation": "[戦闘に出るとエレキフィールドにする, 特攻4/3倍]",
       "check": 1
     },
     {
       "name": "はりきり",
-      "explanation": "[攻撃1.5倍],[物理技命中率 0.8倍]",
+      "explanation": "[攻撃1.5倍],[物理技 命中率0.8倍]",
       "check": 0
     },
     {
       "name": "はりこみ",
-      "explanation": "(+相手が交代しているとき)　[威力 2倍]",
+      "explanation": "(+相手が交代時) [威力2倍]",
       "check": 1
     },
     {
       "name": "パンクロック",
-      "explanation": "[音技威力 1.3倍]",
+      "explanation": "[音技 威力1.3倍]",
       "check": 1
     },
     {
       "name": "ばんけん",
-      "explanation": "[威嚇されると攻撃ランク1段階上昇]",
+      "explanation": "[いかくされると攻撃ランク1段階上昇]",
       "check": 0
     },
     {
@@ -327,12 +322,12 @@ const ability = {
     },
     {
       "name": "ひとでなし",
-      "explanation": "(相手が毒のとき)　[攻撃が必ず急所にあたる]",
+      "explanation": "(相手が毒) [攻撃が必ず急所にあたる]",
       "check": 1
     },
     {
       "name": "ひひいろのこどう",
-      "explanation": "[戦闘に出ると晴れる,晴れのとき 攻撃 4/3倍]",
+      "explanation": "[戦闘に出ると晴れる, 攻撃4/3倍]",
       "check": 1
     },
     {
@@ -342,22 +337,22 @@ const ability = {
     },
     {
       "name": "ふくがん",
-      "explanation": "[命中率 1.3倍]",
+      "explanation": "[命中率1.3倍]",
       "check": 0
     },
     {
       "name": "プラス",
-      "explanation": "(+他にプラスかマイナスが場にいるとき)　[特攻 1.5倍]",
+      "explanation": "(+他にプラスかマイナスがいる) [特攻1.5倍]",
       "check": 0
     },
     {
       "name": "フラワーギフト",
-      "explanation": "(+晴れのとき)　[攻撃 1.5倍]",
+      "explanation": "(+晴れ) [攻撃1.5倍]",
       "check": 1
     },
     {
       "name": "フリーズスキン",
-      "explanation": "[ノーマル技→氷タイプ化＆威力 1.2倍]",
+      "explanation": "[ノーマル技→氷タイプ化＆威力1.2倍]",
       "check": 1
     },
     {
@@ -367,17 +362,17 @@ const ability = {
     },
     {
       "name": "マイナス",
-      "explanation": "(+他にプラスかマイナスが場にいるとき)　[特攻 1.5倍]",
+      "explanation": "(+他にプラスかマイナスがいる) [特攻1.5倍]",
       "check": 1
     },
     {
       "name": "マイペース",
-      "explanation": "[相手の「いかく」無効]",
+      "explanation": "[いかく無効]",
       "check": 0
     },
     {
       "name": "まけんき",
-      "explanation": "(相手の技や特性で能力ランクが下がったとき)　[攻撃ランクが2段階上昇する]",
+      "explanation": "(能力ランク下降時) [攻撃ランクが2段階上昇する]",
       "check": 0
     },
     {
@@ -387,27 +382,27 @@ const ability = {
     },
     {
       "name": "ミラーアーマー",
-      "explanation": "[相手の技や特性の能力ランクを下げる効果を反射する]",
+      "explanation": "[技や特性の能力ランクを下げる効果を反射する]",
       "check": 0
     },
     {
       "name": "むしのしらせ",
-      "explanation": "(+自分のHPが1/3以下のとき)　[虫技 威力 1.5倍]",
+      "explanation": "(+自分のHPが1/3以下) [虫技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "メガランチャー",
-      "explanation": "[波動技 威力 1.5倍]",
+      "explanation": "[波動技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "もうか",
-      "explanation": "(+自分のHPが1/3以下のとき)　[炎技 威力 1.5倍]",
+      "explanation": "(+自分のHPが1/3以下) [炎技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "もらいび",
-      "explanation": "(+炎技を受けた後)　[炎技 1.5倍]",
+      "explanation": "(+炎技を受けた後) [炎技 威力1.5倍]",
       "check": 1
     },
     {
@@ -422,7 +417,7 @@ const ability = {
     },
     {
       "name": "りゅうのあぎと",
-      "explanation": "[ドラゴン技 威力 1.5倍]",
+      "explanation": "[ドラゴン技 威力1.5倍]",
       "check": 1
     },
     {
@@ -439,17 +434,17 @@ const ability = {
   "ability_a2": [
     {
       "name": "フラワーギフト",
-      "explanation": "(+晴れのとき)　[攻撃 1.5倍]",
+      "explanation": "(+晴れ) [攻撃1.5倍]",
       "check": 1
     },
     {
       "name": "はがねのせいしん",
-      "explanation": "[鋼技 威力 1.5倍]",
+      "explanation": "[鋼技 威力1.5倍]",
       "check": 1
     },
     {
       "name": "パワースポット",
-      "explanation": "[味方の技 威力 1.3倍]",
+      "explanation": "[味方の技 威力1.3倍]",
       "check": 0
     },
     {
@@ -536,22 +531,22 @@ const ability = {
     },
     {
       "name": "かんそうはだ",
-      "explanation": "[炎技ダメージ 1.25倍,水技 無効]",
+      "explanation": "[炎技 ダメージ1.25倍,水技 無効]",
       "check": 0
     },
     {
       "name": "きよめのしお",
-      "explanation": "[ゴースト技ダメージ 1/2倍]",
+      "explanation": "[ゴースト技 ダメージ1/2倍]",
       "check": 0
     },
     {
       "name": "くさのけがわ",
-      "explanation": "(+グラスフィールドのとき)　[防御 1.5倍]",
+      "explanation": "(+グラスフィールド) [防御1.5倍]",
       "check": 1
     },
     {
       "name": "クォークチャージ",
-      "explanation": "(+ブーストエナジー持ち,またはエレキフィールドのとき)[最も高い能力 1.3倍]",
+      "explanation": "(+発動時) [最も高い能力 1.3倍]",
       "check": 1
     },
     {
@@ -566,7 +561,7 @@ const ability = {
     },
     {
       "name": "こだいかっせい",
-      "explanation": "(+ブーストエナジー持ち,または晴れのとき)[最も高い能力1.3倍]",
+      "explanation": "(+発動時) [最も高い能力1.3倍]",
       "check": 1
     },
     {
@@ -606,7 +601,7 @@ const ability = {
     },
     {
       "name": "すながくれ",
-      "explanation": "(+砂嵐のとき)　[相手の命中率 0.8倍]",
+      "explanation": "(+砂嵐) [相手の命中率 0.8倍]",
       "check": 1
     },
     {
@@ -626,7 +621,7 @@ const ability = {
     },
     {
       "name": "ちどりあし",
-      "explanation": "[+混乱のとき]　[相手の命中率 0.8倍]",
+      "explanation": "[+混乱] [相手の命中率 0.8倍]",
       "check": 1
     },
     {
@@ -711,7 +706,7 @@ const ability = {
     },
     {
       "name": "ふしぎなうろこ",
-      "explanation": "(＋状態異常のとき)　[防御 1.5倍]",
+      "explanation": "(＋自分が状態異常) [防御1.5倍]",
       "check": 1
     },
     {
@@ -721,7 +716,7 @@ const ability = {
     },
     {
       "name": "フラワーギフト",
-      "explanation": "(+晴れのとき)　[特防 1.5倍]",
+      "explanation": "(+晴れ) [特防1.5倍]",
       "check": 1
     },
     {
@@ -746,7 +741,7 @@ const ability = {
     },
     {
       "name": "マルチスケイル",
-      "explanation": "(HP最大のとき)　[ダメージ1/2倍]",
+      "explanation": "(HP最大のとき) [ダメージ1/2倍]",
       "check": 1
     },
     {
@@ -766,7 +761,7 @@ const ability = {
     },
     {
       "name": "ゆきがくれ",
-      "explanation": "(+雪のとき)　[相手の命中率 0.8倍]",
+      "explanation": "(+雪のとき) [相手の命中率 0.8倍]",
       "check": 1
     },
     {
@@ -786,19 +781,19 @@ const ability = {
     },
     {
       "name": "わざわいのうつわ",
-      "explanation": "[自分以外の特攻3/4倍]",
+      "explanation": "[自分以外の特攻 3/4倍]",
       "check": 0
     },
     {
       "name": "わざわいのおふだ",
-      "explanation": "[自分以外の攻撃3/4倍]",
+      "explanation": "[自分以外の攻撃 3/4倍]",
       "check": 0
     }
   ],
   "ability_b2": [
     {
       "name": "フラワーギフト",
-      "explanation": "(+晴れのとき)　[特防 1.5倍]",
+      "explanation": "(+晴れのとき) [特防1.5倍]",
       "check": 1
     },
     {
@@ -890,17 +885,17 @@ const ability = {
   "item_a1": [
     {
       "name": "タイプ強化アイテム",
-      "explanation": "[対象タイプの技 威力 1.2倍]",
+      "explanation": "[対象タイプの技 威力1.2倍]",
       "check": 1
     },
     {
       "name": "いのちのたま",
-      "explanation": "[威力 1.3倍]",
+      "explanation": "[威力1.3倍]",
       "check": 0
     },
     {
       "name": "こだわりハチマキ",
-      "explanation": "[物理技 威力 1.5倍]",
+      "explanation": "[物理技 威力1.5倍]",
       "check": 0
     },
     {
@@ -910,22 +905,22 @@ const ability = {
     },
     {
       "name": "たつじんのおび",
-      "explanation": "[弱点技 威力 1.2倍]",
+      "explanation": "[弱点技 威力1.2倍]",
       "check": 1
     },
     {
       "name": "パンチグローブ",
-      "explanation": "[こぶし技 非接触技化＆威力 1.2倍]",
+      "explanation": "[こぶし技 非接触技化＆威力1.2倍]",
       "check": 1
     },
     {
       "name": "ちからのハチマキ",
-      "explanation": "[物理技 威力 1.1倍]",
+      "explanation": "[物理技 威力1.1倍]",
       "check": 0
     },
     {
       "name": "ものしりメガネ",
-      "explanation": "[特殊技 威力 1.1倍]",
+      "explanation": "[特殊技 威力1.1倍]",
       "check": 0
     },
     {
@@ -935,7 +930,7 @@ const ability = {
     },
     {
       "name": "ピントレンズ",
-      "explanation": "[急所率 1.1倍]",
+      "explanation": "[急所率1.1倍]",
       "check": 0
     },
     {
@@ -945,7 +940,7 @@ const ability = {
     },
     {
       "name": "ノーマルジュエル",
-      "explanation": "[ノーマル技 威力 1.3倍]",
+      "explanation": "[ノーマル技 威力1.3倍]",
       "check": 0
     },
     {
@@ -955,7 +950,7 @@ const ability = {
     },
     {
       "name": "フォーカスレンズ",
-      "explanation": "(+後攻のとき)[命中率 1.2倍]",
+      "explanation": "(+後攻のとき) [命中率 1.2倍]",
       "check": 1
     },
     {
@@ -982,7 +977,7 @@ const ability = {
     },
     {
       "name": "しんかのきせき",
-      "explanation": "(+進化前ポケモン)　[防御/特防 1.5倍]",
+      "explanation": "(+進化前ポケモン) [防御/特防 1.5倍]",
       "check": 1
     },
     {

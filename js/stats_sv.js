@@ -6,6 +6,7 @@ window.onload = () => {
   addOption("select_ability_b2", ability.ability_b2);
   addOption("select_item_a1", ability.item_a1);
   addOption("select_item_b1", ability.item_b1);
+  addWaza();
 }
 
 /**
@@ -22,6 +23,22 @@ addOption = (selectId, optionArray) => {
     const option = document.createElement("option");
     // optionタグのテキストを設定する
     option.text =element.name + "：" + element.explanation;
+    // FIXME: 仮でvalueにもnameを設定
+    option.value = element.name;
+    // selectタグの子要素にoptionタグを追加する
+    select.appendChild(option);
+  });
+}
+
+addWaza = () => {
+  // selectタグを取得する
+  const select = document.getElementById("select_waza_a1");
+
+  ability.waza.forEach(element => {
+    // optionタグを作成する
+    const option = document.createElement("option");
+    // optionタグのテキストを設定する
+    option.text =element.name;
     // FIXME: 仮でvalueにもnameを設定
     option.value = element.name;
     // selectタグの子要素にoptionタグを追加する

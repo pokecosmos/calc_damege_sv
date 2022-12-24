@@ -186,3 +186,34 @@ function syousai_table(){
   newCell.appendChild(newText);
 }
 
+//--技威力変化
+function waza_iryokuhenka(){
+        
+    //チェックボッスとラベルが事前に存在すれば削除
+    if( document.getElementById('waza_o1') !== null ){
+      var list_element = document.getElementById('waza_o1');
+      list_element.remove();
+      var list_element2 = document.getElementById('waza_o2');
+      list_element2.remove();
+    }
+    
+    //ability.waza.iryokuhenka ==1のときに以降の処理をしたい。
+    
+    //チェックボックスとラベルを追加
+    var checkbox = document.createElement('input');
+    checkbox.type = 'checkbox';
+    checkbox.class = 'check';
+    checkbox.id = 'waza_o1';
+    //checkbox.name = 'interest';
+    //checkbox.value = 'car';
+    
+    var label = document.createElement('label')
+    label.id = 'waza_o2';
+    //label.htmlFor = 'car';
+    //技によってここの表示を変える。
+    label.appendChild(document.createTextNode('Car'));
+    
+    var container = document.getElementById('waza_iryoku_option');
+    container.appendChild(checkbox);
+    container.appendChild(label);
+}

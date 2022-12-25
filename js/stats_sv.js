@@ -158,8 +158,56 @@ function megachange(num, num2) {
 }
 
 //詳細設定ボタン1 表示・非表示
-//削除方法未定、チェックボックスのサイズが合わない。
+//チェックボックスのサイズが合わない。
 function syousai_table(){
+  
+  //チェックボッスとラベルが事前に存在すれば削除
+  if( document.getElementById('s1_pawatori') !== null ){
+    var tableElem = document.getElementById('syousai_1');
+    tableElem.tBodies[0].deleteRow(-1);
+    tableElem.tBodies[0].deleteRow(-1);
+  }else{
+  //1行目
+  var table = document.getElementById('syousai_1');
+  var newRow = table.insertRow();
+  var newCell = newRow.insertCell();
+  
+  var newText = document.createTextNode('でんそうこうげき');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's1_densou';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('もえつきる');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's1_moetukiru';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('みずびたし');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's1_mizubitasi';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('まほうのこな');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's1_mahounokona';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  
+  //2行目
   var table = document.getElementById('syousai_1');
   var newRow = table.insertRow();
   var newCell = newRow.insertCell();
@@ -168,9 +216,7 @@ function syousai_table(){
   var checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   checkbox.class = 'check';
-  //checkbox.id = 'car';
-  //checkbox.name = 'interest';
-  //checkbox.value = 'car';
+  checkbox.id = 's1_pawatori';
   newCell.appendChild(checkbox);
   newCell.appendChild(newText);
   newCell = newRow.insertCell();
@@ -179,15 +225,128 @@ function syousai_table(){
   var checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   checkbox.class = 'check';
-  //checkbox.id = 'car';
-  //checkbox.name = 'interest';
-  //checkbox.value = 'car';
+  checkbox.id = 's1_jyuden';
   newCell.appendChild(checkbox);
   newCell.appendChild(newText);
+  }
+}
+
+//詳細設定ボタン2 表示・非表示
+//チェックボックスのサイズが合わない。
+function syousai_table2(){
+  
+  //チェックボッスとラベルが事前に存在すれば削除
+  if( document.getElementById('s2_pawatori') !== null ){
+    var tableElem = document.getElementById('syousai_2');
+    tableElem.tBodies[0].deleteRow(-1);
+    tableElem.tBodies[0].deleteRow(-1);
+    tableElem.tBodies[0].deleteRow(-1);
+  }else{
+  //1行目
+  var table = document.getElementById('syousai_2');
+  var newRow = table.insertRow();
+  var newCell = newRow.insertCell();
+  
+  var newText = document.createTextNode('でんそうこうげき');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_densou';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('もえつきる');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_moetukiru';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('みずびたし');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_mizubitasi';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('まほうのこな');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_mahounokona';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  
+  //2行目
+  var table = document.getElementById('syousai_2');
+  var newRow = table.insertRow();
+  var newCell = newRow.insertCell();
+  
+  var newText = document.createTextNode('でんじふゆう');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_denjihuyuu';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('はねやすめ');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_haneyasume';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('うちおとす');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_utiotosu';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('ちいさくなる');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_tiisakunaru';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  //3行目
+  var table = document.getElementById('syousai_2');
+  var newRow = table.insertRow();
+  var newCell = newRow.insertCell();
+  
+  var newText = document.createTextNode('パワートリック');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_pawatori';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('タールショット');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's2_ta-ru';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
+  }
 }
 
 //--技威力変化
-function waza_iryokuhenka(){
+waza_iryokuhenka = () => {
         
     //チェックボッスとラベルが事前に存在すれば削除
     if( document.getElementById('waza_o1') !== null ){
@@ -197,7 +356,18 @@ function waza_iryokuhenka(){
       list_element2.remove();
     }
     
-    //ability.waza.iryokuhenka ==1のときに以降の処理をしたい。
+    var obj = document.getElementById('select_waza_a1');
+    var idx = obj.selectedIndex;
+    var txt = obj.options[idx].text;
+    
+    ability.waza.forEach(element => {
+      if((element.iryokuhenka == 1) && (element.name == txt)){
+        waza_iryokuhenka_add(txt);
+      }
+    });
+    
+}
+waza_iryokuhenka_add = (txt) => {
     
     //チェックボックスとラベルを追加
     var checkbox = document.createElement('input');
@@ -211,9 +381,10 @@ function waza_iryokuhenka(){
     label.id = 'waza_o2';
     //label.htmlFor = 'car';
     //技によってここの表示を変える。
-    label.appendChild(document.createTextNode('Car'));
+    label.appendChild(document.createTextNode(txt));
     
     var container = document.getElementById('waza_iryoku_option');
     container.appendChild(checkbox);
     container.appendChild(label);
+
 }

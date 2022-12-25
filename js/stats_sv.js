@@ -172,11 +172,11 @@ function syousai_table(){
   var newRow = table.insertRow();
   var newCell = newRow.insertCell();
   
-  var newText = document.createTextNode('でんそうこうげき');
+  var newText = document.createTextNode('でんこうそうげき');
   var checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   checkbox.class = 'check';
-  checkbox.id = 's1_densou';
+  checkbox.id = 's1_denkou';
   newCell.appendChild(checkbox);
   newCell.appendChild(newText);
   newCell = newRow.insertCell();
@@ -228,6 +228,15 @@ function syousai_table(){
   checkbox.id = 's1_jyuden';
   newCell.appendChild(checkbox);
   newCell.appendChild(newText);
+  newCell = newRow.insertCell();
+  
+  newText = document.createTextNode('まるくなる');
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 's1_marukunaru';
+  newCell.appendChild(checkbox);
+  newCell.appendChild(newText);
   }
 }
 
@@ -247,11 +256,11 @@ function syousai_table2(){
   var newRow = table.insertRow();
   var newCell = newRow.insertCell();
   
-  var newText = document.createTextNode('でんそうこうげき');
+  var newText = document.createTextNode('でんこうそうげき');
   var checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   checkbox.class = 'check';
-  checkbox.id = 's2_densou';
+  checkbox.id = 's2_denkou';
   newCell.appendChild(checkbox);
   newCell.appendChild(newText);
   newCell = newRow.insertCell();
@@ -287,11 +296,11 @@ function syousai_table2(){
   var newRow = table.insertRow();
   var newCell = newRow.insertCell();
   
-  var newText = document.createTextNode('でんじふゆう');
+  var newText = document.createTextNode('きょけんとつげき');
   var checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   checkbox.class = 'check';
-  checkbox.id = 's2_denjihuyuu';
+  checkbox.id = 's2_kyoken';
   newCell.appendChild(checkbox);
   newCell.appendChild(newText);
   newCell = newRow.insertCell();
@@ -314,11 +323,11 @@ function syousai_table2(){
   newCell.appendChild(newText);
   newCell = newRow.insertCell();
   
-  newText = document.createTextNode('ちいさくなる');
+  newText = document.createTextNode('でんじふゆう');
   var checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
   checkbox.class = 'check';
-  checkbox.id = 's2_tiisakunaru';
+  checkbox.id = 's2_denjihuyuu';
   newCell.appendChild(checkbox);
   newCell.appendChild(newText);
   //3行目
@@ -347,44 +356,212 @@ function syousai_table2(){
 
 //--技威力変化
 waza_iryokuhenka = () => {
-        
-    //チェックボッスとラベルが事前に存在すれば削除
-    if( document.getElementById('waza_o1') !== null ){
-      var list_element = document.getElementById('waza_o1');
-      list_element.remove();
-      var list_element2 = document.getElementById('waza_o2');
-      list_element2.remove();
-    }
-    
-    var obj = document.getElementById('select_waza_a1');
-    var idx = obj.selectedIndex;
-    var txt = obj.options[idx].text;
-    
-    ability.waza.forEach(element => {
-      if((element.iryokuhenka == 1) && (element.name == txt)){
+  //チェックボッスとラベルが事前に存在すれば削除
+  if( document.getElementById('waza_o1') !== null ){
+    var list_element = document.getElementById('waza_o1');
+    list_element.remove();
+  }
+  if( document.getElementById('waza_o2') !== null ){
+    var list_element2 = document.getElementById('waza_o2');
+    list_element2.remove();
+  }
+  if( document.getElementById('waza_o3') !== null ){
+    var list_element3 = document.getElementById('waza_o3');
+    list_element3.remove();
+    var list_element4 = document.getElementById('waza_o4');
+    list_element4.remove();
+  }
+  
+  var obj = document.getElementById('select_waza_a1');
+  var idx = obj.selectedIndex;
+  var txt = obj.options[idx].text;
+  
+  ability.waza.forEach(element => {
+    if(element.iryokuhenka == 1){
+      if(element.name == txt){
         waza_iryokuhenka_add(txt);
       }
-    });
-    
+    }else if(element.iryokuhenka == 2){
+      if(element.name == txt){
+        waza_iryokuhenka_add2(txt);
+      }
+    }else if(element.iryokuhenka == 3){
+      if(element.name == txt){
+        waza_iryokuhenka_add3(txt);
+      }
+    }else if(element.iryokuhenka == 4){
+      if(element.name == txt){
+        waza_iryokuhenka_add4(txt);
+      }
+    }
+  });
 }
 waza_iryokuhenka_add = (txt) => {
-    
-    //チェックボックスとラベルを追加
-    var checkbox = document.createElement('input');
-    checkbox.type = 'checkbox';
-    checkbox.class = 'check';
-    checkbox.id = 'waza_o1';
-    //checkbox.name = 'interest';
-    //checkbox.value = 'car';
-    
-    var label = document.createElement('label')
-    label.id = 'waza_o2';
-    //label.htmlFor = 'car';
-    //技によってここの表示を変える。
+  
+  //チェックボックスとラベルを追加
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 'waza_o1';
+  
+  var label = document.createElement('label')
+  label.id = 'waza_o2';
+  //技によってここの表示を変える。
+  if(txt == "アクロバット"){
+    label.appendChild(document.createTextNode('道具なし 威力2倍'));
+  }else if(txt == "ウェザーボール"){
+    label.appendChild(document.createTextNode('天候変化 タイプ変化＆威力2倍'));
+  }else if(txt == "だいちのはどう"){
+    label.appendChild(document.createTextNode('フィールド変化＆接地 タイプ変化＆威力2倍'));
+  }else if(txt == "うっぷんばらし"){
+    label.appendChild(document.createTextNode('能力下降 威力2倍'));
+  }else if((txt == "かぜおこし") || (txt == "たつまき")){
+    label.appendChild(document.createTextNode('相手そらをとぶ 威力2倍'));
+  }else if(txt == "かたきうち"){
+    label.appendChild(document.createTextNode('味方瀕死 威力2倍'));
+  }else if(txt == "からげんき"){
+    label.appendChild(document.createTextNode('状態異常 威力2倍'));
+  }else if(txt == "しおみず"){
+    label.appendChild(document.createTextNode('相手HP半分以下 威力2倍'));
+  }else if(txt == "しっぺがえし"){
+    label.appendChild(document.createTextNode('後攻 威力2倍'));
+  }else if(txt == "Gのちから"){
+    label.appendChild(document.createTextNode('重力 威力1.5倍'));
+  }else if(txt == "じしん"){
+    label.appendChild(document.createTextNode('相手あなをほる 威力2倍'));
+  }else if(txt == "じだんだ"){
+    label.appendChild(document.createTextNode('技失敗 威力2倍'));
+  }else if((txt == "ソーラーブレード") || (txt == "ソーラービーム")){
+    label.appendChild(document.createTextNode('悪天候 威力1/2倍'));
+  }else if((txt == "たたりめ") || (txt == "ひゃっきやこう")){
+    label.appendChild(document.createTextNode('相手状態異常 威力2倍'));
+  }else if(txt == "ダメおし"){
+    label.appendChild(document.createTextNode('相手ダメージ 威力2倍'));
+  }else if(txt == "なみのり"){
+    label.appendChild(document.createTextNode('相手ダイビング 威力2倍'));
+  }else if(txt == "ゆきなだれ"){
+    label.appendChild(document.createTextNode('自分ダメージ 威力2倍'));
+  }else if((txt == "でんこうそうげき")||(txt == "もえつきる")){
+    label.appendChild(document.createTextNode('タイプ不一致 失敗'));
+  }else if((txt == "どくばりセンボン")||(txt == "ベノムショック")){
+    label.appendChild(document.createTextNode('相手が毒 威力2倍'));
+  }else if((txt == "のしかかり")||(txt == "ふみつけ")||(txt == "ドラゴンダイブ")||(txt == "フライングプレス")||(txt == "ヒートスタンプ")||(txt == "ハードローラー")){
+    label.appendChild(document.createTextNode('相手ちいさくなる 必中＆威力2倍'));
+  }else if(txt == "はたきおとす"){
+    label.appendChild(document.createTextNode('相手道具あり 威力1.5倍'));
+  }else if(txt == "ふぶき"){
+    label.appendChild(document.createTextNode('雪 必中'));
+  }else if((txt == "ほのおのちかい")||(txt == "くさのちかい")||(txt == "みずのちかい")){
+    label.appendChild(document.createTextNode('合体技 威力150'));
+  }else if(txt == "ミストバースト"){
+    label.appendChild(document.createTextNode('ミストフィールド＆接地 威力1.5倍'));
+  }else if(txt == "めざめるダンス"){
+    label.appendChild(document.createTextNode('技のタイプが自分のタイプ1と同じになる'));
+  }else if(txt == "ライジングボルト"){
+    label.appendChild(document.createTextNode('エレキフィールド＆相手接地 威力2倍'));
+  }else if(txt == "ワイドフォース"){
+    label.appendChild(document.createTextNode('サイコフィールド＆接地 範囲技化＆威力1.5倍'));
+  }else if(txt == "グラススライダー"){
+    label.appendChild(document.createTextNode('先制技化'));
+  }else if(txt == "りんしょう"){
+    label.appendChild(document.createTextNode('2番手以降 威力2倍'));
+  }else{
     label.appendChild(document.createTextNode(txt));
-    
-    var container = document.getElementById('waza_iryoku_option');
-    container.appendChild(checkbox);
-    container.appendChild(label);
+  }
+  var container = document.getElementById('waza_iryoku_option');
+  container.appendChild(checkbox);
+  container.appendChild(label);
+}
 
+waza_iryokuhenka_add2 = (txt) => {
+  
+  //チェックボックス2個の技
+  //左側のチェックボックスの反応範囲がおかしいバグがある。チェックボックス1個側も変。ラジオボタンも変。
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 'waza_o1';
+  //checkbox.name = 'interest';
+  //checkbox.value = 'car';
+  
+  var label = document.createElement('label')
+  label.id = 'waza_o2';
+  
+  label.appendChild(document.createTextNode('雨 必中'));
+  
+  var container = document.getElementById('waza_iryoku_option');
+  container.appendChild(checkbox);
+  container.appendChild(label);
+  
+  var checkbox = document.createElement('input');
+  checkbox.type = 'checkbox';
+  checkbox.class = 'check';
+  checkbox.id = 'waza_o3';
+  //checkbox.name = 'interest';
+  //checkbox.value = 'car';
+  
+  var label = document.createElement('label')
+  label.id = 'waza_o4';
+  label.appendChild(document.createTextNode('晴れ 命中率50'));
+  
+  var container = document.getElementById('waza_iryoku_option');
+  container.appendChild(checkbox);
+  container.appendChild(label);
+}
+waza_iryokuhenka_add3 = (txt) => {
+  
+  //チェックボックスなし
+  var label = document.createElement('label')
+  label.id = 'waza_o2';
+  
+  if((txt == "アクセルブレイク")||(txt == "イナズマドライブ")){
+    label.appendChild(document.createTextNode('抜群補正 4/3倍'));
+  }else if((txt == "サイコショック") || (txt == "サイコブレイク")){
+    label.appendChild(document.createTextNode('相手の防御で計算'));
+  }else if((txt == "せいなるつるぎ") ||(txt == "DDラリアット")){
+    label.appendChild(document.createTextNode('相手能力変化 無効'));
+  }else if(txt == "ボディプレス"){
+    label.appendChild(document.createTextNode('防御で計算'));
+  }else if(txt == "イカサマ"){
+    label.appendChild(document.createTextNode('相手の攻撃で計算'));
+  }else if(txt == "テラバースト"){
+    label.appendChild(document.createTextNode('テラスタル タイプ変化'));
+  }else if(txt == "レイジングブル"){
+    label.appendChild(document.createTextNode('ケンタロスのフォルムにタイプ変化'));
+  }
+  
+  var container = document.getElementById('waza_iryoku_option');
+  container.appendChild(label);
+}
+
+waza_iryokuhenka_add4 = (txt) => {   
+  //ドラゴンアローの回数
+  
+  var input_radio0 = document.createElement("input");
+  var input_radio1 = document.createElement("input");
+  
+  input_radio0.type = "radio";
+  input_radio1.type = "radio";
+  input_radio0.name = "my_radio";
+  input_radio1.name = "my_radio";
+  input_radio0.id = "waza_o1";
+  input_radio1.id = "waza_o3";
+  input_radio1.checked = true ;
+  
+  document.body.appendChild(input_radio0);
+  document.body.appendChild(input_radio1);
+  
+  
+  var label0 = document.createElement('label')
+  var label1 = document.createElement('label')
+  label0.id = 'waza_o2';
+  label1.id = 'waza_o4';
+  label0.appendChild(document.createTextNode('1回'));
+  label1.appendChild(document.createTextNode('2回'));
+  
+  var container = document.getElementById('waza_iryoku_option');
+  container.appendChild(input_radio0);
+  container.appendChild(label0);
+  container.appendChild(input_radio1);
+  container.appendChild(label1);
 }

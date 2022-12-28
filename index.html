@@ -139,39 +139,40 @@
           </div>
 
         </td>
-        <td>技タイプ：<select name="waza_type" size="1" onChange="">
+        <td>技タイプ：<select id="waza_type" name="waza_type" size="1" onChange="">
             <option value="0" selected="selected">--</option>
-            <option value="1">ノーマル</option>
-            <option value="2">かくとう</option>
-            <option value="3">どく</option>
-            <option value="4">じめん</option>
-            <option value="5">ひこう</option>
-            <option value="6">むし</option>
-            <option value="7">いわ</option>
-            <option value="8">ゴースト</option>
-            <option value="9">はがね</option>
-            <option value="10">ほのお</option>
-            <option value="11">みず</option>
-            <option value="12">でんき</option>
-            <option value="13">くさ</option>
-            <option value="14">こおり</option>
-            <option value="15">エスパー</option>
-            <option value="16">ドラゴン</option>
-            <option value="17">あく</option>
-            <option value="18">フェアリー</option>
+            <option value="ノーマル">ノーマル</option>
+            <option value="かくとう">かくとう</option>
+            <option value="どく">どく</option>
+            <option value="じめん">じめん</option>
+            <option value="ひこう">ひこう</option>
+            <option value="むし">むし</option>
+            <option value="いわ">いわ</option>
+            <option value="ゴースト">ゴースト</option>
+            <option value="はがね">はがね</option>
+            <option value="ほのお">ほのお</option>
+            <option value="みず">みず</option>
+            <option value="でんき">でんき</option>
+            <option value="くさ">くさ</option>
+            <option value="こおり">こおり</option>
+            <option value="エスパー">エスパー</option>
+            <option value="ドラゴン">ドラゴン</option>
+            <option value="あく">あく</option>
+            <option value="フェアリー">フェアリー</option>
           </select></td>
       </tr>
       <tr>
-        <td>威力：<input type="number" class="number" name="iryoku" value="120" min="1" max="999"> <input type="button"
+        <td>威力：<input type="number" class="number" id="iryoku" name="iryoku" value="120" min="1" max="999"> <input type="button"
             class="button" value="90" onclick="setvalue('iryoku', 90);"><input type="button" class="button" value="120"
             onclick="setvalue('iryoku', 120);"></td>
-        <td>命中率：<input type="number" class="number" name="accuracy" value="100" min="1" max="100"> <input type="button"
+        <td>命中率：<input type="search" class="number" id="accuracy" name="accuracy" value="100" min="1" max="100"> <input type="button"
             class="button" value="100" onclick="setvalue('accuracy', 100);"></td>
-        <td>急所補正：<select name="critical" size="1" onChange="scalc()">
+        <td>急所補正：<select name="critical" id ="critical" size="1" onChange="scalc()">
             <option value="0" selected="selected">--</option>
             <option value="1">＋1</option>
-            <option value="2">必急所</option>
-            <option value="3">無視</option>
+            <option value="2">＋2</option>
+            <option value="3">必急所</option>
+            <option value="4">無視</option>
           </select></td>
       </tr>
 

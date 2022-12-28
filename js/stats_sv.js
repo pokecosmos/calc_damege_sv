@@ -354,45 +354,42 @@ function syousai_table2(){
   }
 }
 
-//--技威力変化
+//--技威力
 waza_iryokuhenka = () => {
   //チェックボッスとラベルが事前に存在すれば削除
   if( document.getElementById('waza_o1') !== null ){
-    var list_element = document.getElementById('waza_o1');
-    list_element.remove();
+    document.getElementById('waza_o1').remove();
   }
   if( document.getElementById('waza_o2') !== null ){
-    var list_element2 = document.getElementById('waza_o2');
-    list_element2.remove();
+    document.getElementById('waza_o2').remove();
   }
   if( document.getElementById('waza_o3') !== null ){
-    var list_element3 = document.getElementById('waza_o3');
-    list_element3.remove();
-    var list_element4 = document.getElementById('waza_o4');
-    list_element4.remove();
+    document.getElementById('waza_o3').remove();
+    document.getElementById('waza_o4').remove();
   }
   
   var obj = document.getElementById('select_waza_a1');
   var idx = obj.selectedIndex;
   var txt = obj.options[idx].text;
   
+  
   ability.waza.forEach(element => {
-    if(element.iryokuhenka == 1){
-      if(element.name == txt){
+    if(element.name == txt){
+      //--チェックボックス等を追加
+      if(element.iryokuhenka == 1){
         waza_iryokuhenka_add(txt);
-      }
-    }else if(element.iryokuhenka == 2){
-      if(element.name == txt){
+      }else if(element.iryokuhenka == 2){
         waza_iryokuhenka_add2(txt);
-      }
-    }else if(element.iryokuhenka == 3){
-      if(element.name == txt){
+      }else if(element.iryokuhenka == 3){
         waza_iryokuhenka_add3(txt);
-      }
-    }else if(element.iryokuhenka == 4){
-      if(element.name == txt){
+      }else if(element.iryokuhenka == 4){
         waza_iryokuhenka_add4(txt);
       }
+      //--技の基本威力、タイプ、命中率、急所率を反映
+      document.getElementById('iryoku').value = element.iryoku;
+      document.getElementById('waza_type').querySelector(`option[value = '${element.type}']` ).selected = true;
+      document.getElementById('accuracy').value = element.meityu;
+      document.getElementById('critical').querySelector(`option[value = '${element.kyuusyo}']` ).selected = true;
     }
   });
 }
@@ -445,7 +442,7 @@ waza_iryokuhenka_add = (txt) => {
     label.appendChild(document.createTextNode('タイプ不一致 失敗'));
   }else if((txt == "どくばりセンボン")||(txt == "ベノムショック")){
     label.appendChild(document.createTextNode('相手が毒 威力2倍'));
-  }else if((txt == "のしかかり")||(txt == "ふみつけ")||(txt == "ドラゴンダイブ")||(txt == "フライングプレス")||(txt == "ヒートスタンプ")||(txt == "ハードローラー")){
+  }else if((txt == "のしかかり")||(txt == "ふみつけ")||(txt == "ドラゴンダイブ")||(txt == "フライングプレス")||(txt == "ヒートスタンプ")||(txt == "ヘビーボンバー")){
     label.appendChild(document.createTextNode('相手ちいさくなる 必中＆威力2倍'));
   }else if(txt == "はたきおとす"){
     label.appendChild(document.createTextNode('相手道具あり 威力1.5倍'));

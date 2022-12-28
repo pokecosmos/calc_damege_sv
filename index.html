@@ -80,8 +80,7 @@
                   type="button" class="button" value="100" onclick="setvalue('L0', 100);">
               </td>
               <td>タイプ：<input value="--" class="type1"> <input value="--" class="type1"></td>
-              <td><input class="check" type="checkbox">テラスタル：<select name="Terastal_p1" class="type2" size="1"
-                  onChange="">
+              <td><input class="check" type="checkbox">テラスタル：<select name="Terastal_p1" class="type2" size="1">
                   <option value="0" selected="selected">--</option>
                   <option value="1">ノーマル</option>
                   <option value="2">かくとう</option>
@@ -127,11 +126,11 @@
             <table border="0" id="acSwitch">
               <tr>
                 <td>
-                  <input type="radio" class="radio" name="ac_button" id="buturi" value="1" checked><label
+                  <input type="radio" class="radio" name="ac_button" id="buturi" value="1" checked onclick="radio_buturi()"><label
                     for="buturi">物理</label>
                 </td>
                 <td>
-                  <input type="radio" class="radio" name="ac_button" id="tokusyu" value="0" required="required"><label
+                  <input type="radio" class="radio" name="ac_button" id="tokusyu" value="0" required="required" onclick="radio_tokusyu()"><label
                     for="tokusyu">特殊</label>
                 </td>
               </tr>
@@ -139,7 +138,7 @@
           </div>
 
         </td>
-        <td>技タイプ：<select id="waza_type" name="waza_type" size="1" onChange="">
+        <td>技タイプ：<select id="waza_type" name="waza_type" size="1">
             <option value="0" selected="selected">--</option>
             <option value="ノーマル">ノーマル</option>
             <option value="かくとう">かくとう</option>
@@ -165,9 +164,18 @@
         <td>威力：<input type="number" class="number" id="iryoku" name="iryoku" value="120" min="1" max="999"> <input type="button"
             class="button" value="90" onclick="setvalue('iryoku', 90);"><input type="button" class="button" value="120"
             onclick="setvalue('iryoku', 120);"></td>
-        <td>命中率：<input type="search" class="number" id="accuracy" name="accuracy" value="100" min="1" max="100"> <input type="button"
-            class="button" value="100" onclick="setvalue('accuracy', 100);"></td>
-        <td>急所補正：<select name="critical" id ="critical" size="1" onChange="scalc()">
+        <td>命中率：<select name="accuracy" id="accuracy" size="1">
+            <option value="100">100</option>
+            <option value="95">95</option>
+            <option value="90">90</option>
+            <option value="85">85</option>
+            <option value="80">80</option>
+            <option value="75">75</option>
+            <option value="70">70</option>
+            <option value="50">50</option>
+            <option value="必中">必中</option>
+          </select></td>
+        <td>急所補正：<select name="critical" id ="critical" size="1">
             <option value="0" selected="selected">--</option>
             <option value="1">＋1</option>
             <option value="2">＋2</option>
@@ -180,7 +188,7 @@
         <td align="center">
           <p class="p3">ランク</p>
         </td>
-        <td>攻撃R：<select name="rank_attack" size="1" onChange="scalc()">
+        <td><label id="ac_2">攻撃</label>R：<select name="rank_attack" size="1" >
             <option value="6">+6</option>
             <option value="5">+5</option>
             <option value="4">+4</option>
@@ -196,7 +204,7 @@
             <option value="-6">-6</option>
           </select><input type="button" class="updown" value="▲" onclick=""><input type="button" class="updown"
             value="▼" onclick=""></td>
-        <td>命中R：<select name="rank_accuracy" size="1" onChange="scalc()">
+        <td>命中R：<select name="rank_accuracy" size="1">
             <option value="6">+6</option>
             <option value="5">+5</option>
             <option value="4">+4</option>
@@ -212,7 +220,7 @@
             <option value="-6">-6</option>
           </select><input type="button" class="updown" value="▲" onclick=""><input type="button" class="updown"
             value="▼" onclick=""></td>
-        <td>急所R：<select name="rank_attack" size="1" onChange="scalc()">
+        <td>急所R：<select name="rank_attack" size="1">
             <option value="3">+3</option>
             <option value="2">+2</option>
             <option value="1">+1</option>
@@ -223,7 +231,7 @@
 
       <tr>
         <td rowspan="2" align="center">
-          <p class="p4">攻撃</p>
+          <p class="p4" id = "ac_1">攻撃</p>
         </td>
         <td colspan="3">
           <table border="0">
@@ -254,7 +262,7 @@
           <p class="p5">特性</p>
         </td>
         <td>
-          <select id="select_ability_a1" size="1" onChange="scalc()">
+          <select id="select_ability_a1" size="1">
             <option value="2" selected="selected">--</option>
           </select>
         </td>
@@ -264,7 +272,7 @@
           <p class="p6">持ち物</p>
         </td>
         <td>
-          <select id="select_item_a1" size="1" onChange="">
+          <select id="select_item_a1" size="1">
             <option value="2" selected="selected">--</option>
           </select>
         </td>
@@ -294,7 +302,7 @@
           <p class="p8">味方の特性</p>
         </td>
         <td>
-          <select id="select_ability_a2" size="1" onChange="scalc()">
+          <select id="select_ability_a2" size="1" >
             <option value="2" selected="selected">--</option>
           </select>
         </td>
@@ -337,8 +345,7 @@
                   type="button" class="button" value="100" onclick="setvalue('L1', 100);">
               </td>
               <td>タイプ：<input value="--" class="type1"> <input value="--" class="type1"></td>
-              <td><input class="check" type="checkbox" class="type2">テラスタル：<select name="Terastal_p2" size="1"
-                  onChange="">
+              <td><input class="check" type="checkbox" class="type2">テラスタル：<select name="Terastal_p2" size="1">
                   <option value="0" selected="selected">--</option>
                   <option value="1">ノーマル</option>
                   <option value="2">かくとう</option>
@@ -371,7 +378,7 @@
         <td align="center">
           <p class="p10">ランク</p>
         </td>
-        <td colspan="2">防御R：<select name="defense" size="1" onChange="scalc()">
+        <td colspan="2"><label id=ac_4>防御</label>R：<select name="defense" size="1">
             <option value="6">+6</option>
             <option value="5">+5</option>
             <option value="4">+4</option>
@@ -387,7 +394,7 @@
             <option value="-6">-6</option>
           </select><input type="button" class="updown" value="▲" onclick=""><input type="button" class="updown"
             value="▼" onclick=""></td>
-        <td colspan="3">回避R：<select name="Avoidance" size="1" onChange="scalc()">
+        <td colspan="3">回避R：<select name="Avoidance" size="1">
             <option value="6">+6</option>
             <option value="5">+5</option>
             <option value="4">+4</option>
@@ -428,7 +435,7 @@
       </tr>
       <tr>
         <td rowspan="2" align="center">
-          <p class="p12">防御</p>
+          <p class="p12" id ="ac_3">防御</p>
         </td>
         <td>実数値：</td>
         <td><input id="real-value-defense" class="number" type="number" value="120" min="1" max="999"><input
@@ -455,7 +462,7 @@
           <p class="p13">特性</p>
         </td>
         <td>
-          <select id="select_ability_b1" size="1" onChange="scalc()">
+          <select id="select_ability_b1" size="1">
             <option value="2" selected="selected">--</option>
           </select>
         </td>
@@ -465,7 +472,7 @@
           <p class="p14">持ち物</p>
         </td>
         <td>
-          <select id="select_item_b1" size="1" onChange="scalc()">
+          <select id="select_item_b1" size="1">
             <option value="2" selected="selected">--</option>
           </select>
         </td>
@@ -493,7 +500,7 @@
           <p class="p16">味方の特性</p>
         </td>
         <td>
-          <select id="select_ability_b2" size="1" onChange="scalc()">
+          <select id="select_ability_b2" size="1">
             <option value="2" selected="selected">--</option>
           </select>
         </td>
@@ -519,7 +526,7 @@
         <td align="center">
           <p class="p18">天候</p>
         </td>
-        <td colspan="2"><select name="skill_b" size="1" onChange="scalc()">
+        <td colspan="2"><select name="skill_b" size="1">
             <option value="2" selected="selected">--</option>
             <option value="1">晴れ　[炎技 威力1.5倍, 水技 威力1/2倍]</option>
             <option value="2">雨　　[水技 威力1.5倍, 炎技 威力1/2倍]</option>

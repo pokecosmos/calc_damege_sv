@@ -388,19 +388,48 @@ waza_iryokuhenka = () => {
       //--技の基本威力、タイプ、命中率、急所率を反映
       //element.buturi
       if(element.buturi == 1){
-        document.getElementById('buturi').checked = true;
-        document.getElementById('tokusyu').checked = false;
+        radio_buturi();
       }else if(element.buturi == 0){
-        document.getElementById('buturi').checked = false;
-        document.getElementById('tokusyu').checked = true;
+        radio_tokusyu();
       }
       document.getElementById('iryoku').value = element.iryoku;
       document.getElementById('waza_type').querySelector(`option[value = '${element.type}']` ).selected = true;
-      document.getElementById('accuracy').value = element.meityu;
+      //なおすぞ！！
+      //document.getElementById('accuracy').value = element.meityu;
+      document.getElementById('accuracy').querySelector(`option[value = '${element.meityu}']` ).selected = true;
       document.getElementById('critical').querySelector(`option[value = '${element.kyuusyo}']` ).selected = true;
     }
   });
 }
+radio_buturi = (txt) => {
+  document.getElementById('buturi').checked = true;
+  document.getElementById('tokusyu').checked = false;
+  
+  if(document.getElementById("select_waza_a1").value != "ボディプレス"){
+    document.getElementById("ac_1").innerHTML = "攻撃";
+    document.getElementById('ac_2').innerHTML = "攻撃";
+  }else{
+    document.getElementById("ac_1").innerHTML = "防御";
+    document.getElementById('ac_2').innerHTML = "防御";
+  }
+  document.getElementById('ac_3').innerHTML = "防御";
+  document.getElementById('ac_4').innerHTML = "防御";
+}
+
+radio_tokusyu = (txt) => {
+  document.getElementById('buturi').checked = false;
+  document.getElementById('tokusyu').checked = true;
+  document.getElementById("ac_1").innerHTML = "特攻";
+  document.getElementById('ac_2').innerHTML = "特攻";
+  if((document.getElementById("select_waza_a1").value != "サイコショック")&&(document.getElementById("select_waza_a1").value != "サイコブレイク")){
+    document.getElementById('ac_3').innerHTML = "特防";
+    document.getElementById('ac_4').innerHTML = "特防";
+  }else{
+    document.getElementById('ac_3').innerHTML = "防御";
+    document.getElementById('ac_4').innerHTML = "防御";
+  }
+}
+
 waza_iryokuhenka_add = (txt) => {
   
   //チェックボックスとラベルを追加

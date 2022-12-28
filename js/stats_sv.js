@@ -386,6 +386,14 @@ waza_iryokuhenka = () => {
         waza_iryokuhenka_add4(txt);
       }
       //--技の基本威力、タイプ、命中率、急所率を反映
+      //element.buturi
+      if(element.buturi == 1){
+        document.getElementById('buturi').checked = true;
+        document.getElementById('tokusyu').checked = false;
+      }else if(element.buturi == 0){
+        document.getElementById('buturi').checked = false;
+        document.getElementById('tokusyu').checked = true;
+      }
       document.getElementById('iryoku').value = element.iryoku;
       document.getElementById('waza_type').querySelector(`option[value = '${element.type}']` ).selected = true;
       document.getElementById('accuracy').value = element.meityu;

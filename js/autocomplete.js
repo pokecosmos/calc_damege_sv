@@ -6,7 +6,7 @@ $(() => {
       const nameKata = this.hiraToKana(nameHira);
 
       // ポケモン一覧からカタカナで名前検索
-      pokedex.pokemons.forEach(element => {
+      pokemonAll.pokemons.forEach(element => {
         const name = element.name;
         //入力された文字列がカタカナのポケモン名とひらがなのポケモン名と前方一致するかチェック
         if (name.indexOf(nameHira) === 0 || name.indexOf(nameKata) === 0) {
@@ -39,7 +39,7 @@ $(() => {
       const nameKata = this.hiraToKana(nameHira);
 
       // ポケモン一覧からカタカナで名前検索
-      pokedex.pokemons.forEach(element => {
+      pokemonAll.pokemons.forEach(element => {
         const name = element.name;
         //入力された文字列がカタカナのポケモン名とひらがなのポケモン名と前方一致するかチェック
         if (name.indexOf(nameHira) === 0 || name.indexOf(nameKata) === 0) {

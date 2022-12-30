@@ -336,6 +336,7 @@ waza_iryokuhenka_add = (txt) => {
   
   var label = document.createElement('label')
   label.id = 'waza_o2';
+  label.classList.add("chk");
   label.appendChild(checkbox);
   //技によってここの表示を変える。
   if(txt == "アクロバット"){
@@ -416,6 +417,7 @@ waza_iryokuhenka_add2 = (txt) => {
   checkbox1.id = 'waza_o1';
   var label1 = document.createElement('label')
   label1.id = 'waza_o2';
+  label1.classList.add("chk");
   label1.appendChild(checkbox1);
   label1.appendChild(document.createTextNode('雨 必中'));
   var container = document.getElementById('waza_iryoku_option');
@@ -427,6 +429,7 @@ waza_iryokuhenka_add2 = (txt) => {
   checkbox2.id = 'waza_o3';
   var label2 = document.createElement('label')
   label2.id = 'waza_o4';
+  label2.classList.add("chk");
   label2.appendChild(checkbox2);
   label2.appendChild(document.createTextNode('晴れ 命中率50'));
   var container2 = document.getElementById('waza_iryoku_option2');
@@ -481,6 +484,8 @@ waza_iryokuhenka_add4 = (txt) => {
   var label1 = document.createElement("label")
   label0.id = "waza_o2";
   label1.id = "waza_o4";
+  label0.classList.add("chk");
+  label1.classList.add("chk");
   label0.appendChild(input_radio0);
   label1.appendChild(input_radio1);
   label0.appendChild(document.createTextNode("1回"));

@@ -46,15 +46,12 @@ addWaza = () => {
   });
 }
 
-
-
 //ボタンで数値代入
 function setvalue(elm,num){
-	//document.nForm.elements[elm].value = parseInt(num);
 	if(num =="-1"){
-		document.nForm.elements[elm].value ="";
+		document.getElementById(elm).value ="";
 	}else{
-		document.nForm.elements[elm].value = parseInt(num);
+		document.getElementById(elm).value = parseInt(num);
 	}
 }
 
@@ -65,35 +62,149 @@ function setvalue(elm,num){
  */
 //setPokemon = (inputId) => {
 //  // mega_button(num1);
-//  // inputからポケモン名を取得する
+// inputからポケモン名を取得する
 //  const inputValue = document.nForm.elements[inputId].value;
-//
-//  // 入力されたポケモン名から種族値などを検索する
+
+// 入力されたポケモン名から種族値などを検索する
 //  const selectedPokemon = pokemonAll.pokemons.find(pokemon => {
 //    return pokemon.name === inputValue;
 //  });
-//
+
 //  if (selectedPokemon) {
-//    switch (inputId) {
-//      case 'pokename_1':
-//        console.log(`攻撃種族値:${selectedPokemon.attackBaseStats}, 特攻種族値${selectedPokemon.specialAttackBaseStats}`);
-//        break;
-//      case 'pokename_2':
-//        console.log(`防御種族値:${selectedPokemon.defenseBaseStats}, 特防種族値${selectedPokemon.specialDefenseBaseStats}`);
-//        break;
-//      default:
-//        break;
-//    }
-//  }
+    //switch (inputId) {
+    //  case 'pokename_1':
+    //    //console.log(`攻撃種族値:${selectedPokemon.attackBaseStats}, 特攻種族値${selectedPokemon.specialAttackBaseStats}`);
+    //    break;
+    //  case 'pokename_2':
+    //    //console.log(`防御種族値:${selectedPokemon.defenseBaseStats}, 特防種族値${selectedPokemon.specialDefenseBaseStats}`)
+    //    break;
+    //  default:
+    //    break;
+    //}
+  //}
 //}
 
+//能力値を計算する
+set_realvalue = (realvalue) => {
+  var d_value, k_value, s_value, Lv, hosei;
+  if (realvalue == "real-value-attack"){
+    d_value = parseInt(document.getElementById(d-attack).value);
+    k_value = parseInt(document.getElementById(k-attack).value);
+    Lv = parseInt(document.nForm.elements['L0'].value);
+    hosei = 5;
+  }else if(realvalue == "real-value-HP"){
+    d_value = parseInt(document.getElementById(d-HP).value);
+    k_value = parseInt(document.getElementById(k-HP).value);
+    Lv = parseInt(document.nForm.elements['L1'].value);
+    hosei = 10 + Lv;
+  }else if(realvalue == "real-value-defense"){
+    d_value = parseInt(document.getElementById(d-defense).value);
+    k_value = parseInt(document.getElementById(k-defense).value);
+    Lv = parseInt(document.nForm.elements['L1'].value);
+    hosei = 5;
+  }
+  s_value = set_syuzokuti(realvalue);
+
+  var n = Math.floor(d_value / 4);
+  n += s_value * 2 + k_value;
+	n = hosei + Math.floor(n * Lv / 100);
+
+  if(realvalue == "real-value-attack"){
+    if(document.getElementById(seikaku_a1).checked == true){
+			n = Math.floor(n*1.1);
+		}else if(document.getElementById(seikaku_a2).checked == true){
+			n = Math.floor(n*0.9);
+		}
+  }else if(realvalue == "real-value-defense"){
+    if(document.getElementById(seikaku_b1).checked == true){
+			n = Math.floor(n*1.1);
+		}else if(document.getElementById(seikaku_b2).checked == true){
+			n = Math.floor(n*0.9);
+		}
+  }
+  document.getElementById(realvalue).value = n;
+}
+
+//種族値を持ってくる
+set_syuzokuti = (realvalue) => {
+  var pwtr = 0;
+  if(document.getElementById('s1_pawatori') !== null){  
+    if(document.getElementById('s1_pawatori').checked == true){
+      pwtr = 1;//パワトリチェック
+    }
+  }
+  //攻撃-物理/特殊-ボディプレ-パワトリ
+  if(realvalue == "real-value-attack"){
+    //ポケモン名を取得
+    var p_name = document.getElementById("pokename_1").value;
+    const selectedPokemon = pokemonAll.pokemons.find(pokemon => {
+      return pokemon.name === p_name;
+    });
+    if (selectedPokemon) {
+      if(document.getElementById('buturi').checked == true){
+        if(document.getElementById("select_waza_a1").value == "ボディプレス"){
+          if(pwtr == 0){
+            return selectedPokemon.defenseBaseStats;//防御
+          }else{
+            return selectedPokemon.attackBaseStats;//攻撃
+          }
+        }else{
+          if(pwtr == 0){
+            return selectedPokemon.attackBaseStats;//攻撃
+          }else{
+            return selectedPokemon.defenseBaseStats;//防御
+          }
+        }
+      }else{
+        return selectedPokemon.specialAttackBaseStats;//特攻
+      }
+    }
+  }
+  //HP
+  if(realvalue == "real-value-HP"){
+    var p_name = document.getElementById("pokename_2").value;
+    const selectedPokemon = pokemonAll.pokemons.find(pokemon => {
+      return pokemon.name === p_name;
+    });
+    if (selectedPokemon) {
+      return selectedPokemon.hitPointBaseStats;//HP
+    }
+  }
+  //防御-物理/特殊-ショック-パワトリ
+  if(realvalue == "real-value-defense"){
+    //ポケモン名を取得
+    var p_name = document.getElementById("pokename_2").value;
+    const selectedPokemon = pokemonAll.pokemons.find(pokemon => {
+      return pokemon.name === p_name;
+    });
+    if (selectedPokemon) {
+      if(document.getElementById('tokusyu').checked == true){
+        if((document.getElementById("select_waza_a1").value == "サイコショック")||(document.getElementById("select_waza_a1").value == "サイコブレイク")){
+          if(pwtr == 0){
+            return selectedPokemon.defenseBaseStats;//防御
+          }else{
+            return selectedPokemon.attackBaseStats;//攻撃
+          }
+        }else{
+          if(pwtr == 0){
+            return selectedPokemon.specialDefenseBaseStats;//特防
+          }else{
+            return selectedPokemon.specialAttackBaseStats;//特攻
+          }
+        }
+      }else{
+        return selectedPokemon.defenseBaseStats;//防御
+      }
+    }
+  }
+}
 
 //フォルムボタンの表示・非表示切り替え
 function mega_button(num) {
   if(num==1){
-    var p = document.nForm.elements['pokename_1'].value;
+    var p = document.getElementById('pokename_1').value;
   }else{
-    var p = document.nForm.elements['pokename_2'].value;
+    var p = document.getElementById('pokename_2').value;
   }
   if ((p == "コオリッポ") || (p == "コオリッポ(アイス)") || (p == "コオリッポ(ナイス)")) {
     visi(2, num, "アイス", "ナイス");
@@ -132,9 +243,9 @@ function visi(num1, num2, var1, var2) {
 function megachange(num, num2) {
   var p;
   if(num2==1){
-    p = document.nForm.elements['pokename_1'].value;
+    p = document.getElementById('pokename_1').value;
   }else{
-    p = document.nForm.elements['pokename_2'].value;
+    p = document.getElementById('pokename_2').value;
   }
   if ((p == "コオリッポ") || (p == "コオリッポ(アイス)") || (p == "コオリッポ(ナイス)")) {
     if (parseInt(num) == 0) {
@@ -150,9 +261,9 @@ function megachange(num, num2) {
     }
   }
   if(num2==1){
-    document.nForm.elements['pokename_1'].value = p;
+    document.getElementById('pokename_1').value = p;
   }else{
-    document.nForm.elements['pokename_2'].value = p;
+    document.getElementById('pokename_2').value = p;
   }
 }
 
@@ -236,7 +347,6 @@ function syousai_table2(){
   }
 }
 
-//チェックボタン追加（なぜかチェックボタンのサイズが合わない）
 function syousai_check_add(newCell,n1,n2){
   var label = document.createElement("label");
   var checkbox = document.createElement('input');
@@ -290,8 +400,6 @@ waza_iryokuhenka = () => {
       }
       document.getElementById('iryoku').value = element.iryoku;
       document.getElementById('waza_type').querySelector(`option[value = '${element.type}']` ).selected = true;
-      //なおすぞ！！
-      //document.getElementById('accuracy').value = element.meityu;
       document.getElementById('accuracy').querySelector(`option[value = '${element.meityu}']` ).selected = true;
       document.getElementById('critical').querySelector(`option[value = '${element.kyuusyo}']` ).selected = true;
     }
@@ -408,9 +516,7 @@ waza_iryokuhenka_add = (txt) => {
 }
 
 waza_iryokuhenka_add2 = (txt) => {
-  
   //チェックボックス2個の技
-  //左側のチェックボックスの反応範囲がおかしいバグがある。チェックボックス1個側も変。ラジオボタンも変。
   var checkbox1 = document.createElement('input');
   checkbox1.type = 'checkbox';
   checkbox1.class = 'check';
@@ -437,7 +543,6 @@ waza_iryokuhenka_add2 = (txt) => {
 }
 
 waza_iryokuhenka_add3 = (txt) => {
-  
   //チェックボックスなし
   var label = document.createElement('label')
   label.id = 'waza_o2';
@@ -464,7 +569,6 @@ waza_iryokuhenka_add3 = (txt) => {
 
 waza_iryokuhenka_add4 = (txt) => {   
   //ドラゴンアローの回数
-  
   var input_radio0 = document.createElement("input");
   var input_radio1 = document.createElement("input");
   

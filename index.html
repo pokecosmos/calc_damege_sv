@@ -56,7 +56,7 @@
           <table border="0" width="500">
             <tr>
               <td width="160"><input width="300" type="search" id="pokename_1" name="pokename_1" class="name" value=""
-                  placeholder="ポケモン名" onchange="setPokemon('pokename_1')"></td>
+                  placeholder="ポケモン名" onchange="set_realvalue('real-value-attack')"></td>
               <td>
                 <table border="0">
                   <tr>
@@ -73,7 +73,7 @@
           </table>
           <table border="0" width="500">
             <tr>
-              <td> Lv. <input type="number" name="L0" value="50" class="number" min="1" max="100" step="1" onclick=""
+              <td> Lv. <input type="number" id="L0" value="50" class="number" min="1" max="100" step="1" onclick=""
                   onblur=""><input type="button" class="button" value="50" onclick="setvalue('L0', 50);"><input
                   type="button" class="button" value="100" onclick="setvalue('L0', 100);">
               </td>
@@ -243,12 +243,14 @@
       </tr>
       <tr>
         <td>努力値：</td>
-        <td><input type="number" class="number" name="d_a1" value="252" min="-999" max="999"><input type="button"
-            class="button" value="0" onclick="setvalue('d_a1', 0);"><input type="button" class="button" value="252"
-            onclick="setvalue('d_a1', 252);"></td>
-        <td colspan="3">個体値：<input type="number" class="number" name="k_a1" value="31" min="0" max="31"><input
-            type="button" class="button" value="0" onclick="setvalue('k_a1', 0);"><input type="button" class="button"
-            value="31" onclick="setvalue('k_a1', 31);"></td>
+        <td><input type="number" class="number" id="d-attack" value="252" min="0" max="999">
+            <input type="button" class="button" value="0" onclick="setvalue('d-attack', 0);set_realvalue('real-value-attack')">
+            <input type="button" class="button" value="252" onclick="setvalue('d-attack', 252);set_realvalue('real-value-attack')">
+        </td>
+        <td colspan="3">個体値：<input type="number" class="number" id="k-attack" value="31" min="0" max="31">
+            <input type="button" class="button" value="0" onclick="setvalue('k-attack', 0);set_realvalue('real-value-attack')">
+            <input type="button" class="button" value="31" onclick="setvalue('k-attack', 31);set_realvalue('real-value-attack')">
+        </td>
       </tr>
     </table>
     </td>
@@ -321,7 +323,7 @@
           <table border="0" width="500">
             <tr>
               <td width="160"><input width="300" type="search" id="pokename_2" name="pokename_2" class="name" value=""
-                  placeholder="ポケモン名" onchange="setPokemon('pokename_2')"></td>
+                  placeholder="ポケモン名" onchange="set_realvalue('real-value-HP');set_realvalue('real-value-defense')"></td>
               <td>
                 <table border="0">
                   <tr>
@@ -338,7 +340,7 @@
           </table>
           <table border="0" width="500">
             <tr>
-              <td> Lv. <input type="number" class="number" name="L1" value="50" min="1" max="100" step="1" onclick=""
+              <td> Lv. <input type="number" class="number" id="L1" value="50" min="1" max="100" step="1" onclick=""
                   onblur=""><input type="button" class="button" value="50" onclick="setvalue('L1', 50);"><input
                   type="button" class="button" value="100" onclick="setvalue('L1', 100);">
               </td>
@@ -416,7 +418,7 @@
           <p class="p11">HP</p>
         </td>
         <td>実数値：</td>
-        <td><input type="number" class="number" value="175" min="1" max="999"><input type="button" class="updown"
+        <td><input id="real-value-HP" type="number" class="number" value="175" min="1" max="999"><input type="button" class="updown"
             value="▲" onclick=""><input type="button" class="updown" value="▼" onclick=""></td>
         <td colspan="4"><label class="chk"><input class="check" type="checkbox" id="hp_chk">残りHP指定</label>：<input type="number" class="number" value="" min="1"
             max="999"><input type="button" class="updown" value="▲" onclick=""><input type="button" class="updown"
@@ -424,12 +426,12 @@
       </tr>
       <tr>
         <td>努力値：</td>
-        <td><input type="number" class="number" name="d_h2" value="252" min="-999" max="999"><input type="button"
-            class="button" value="0" onclick="setvalue('d_h2', 0);"><input type="button" class="button" value="252"
-            onclick="setvalue('d_h2', 252);"></td>
-        <td colspan="3">個体値：<input type="number" class="number" name="k_h2" value="31" min="0" max="31"><input
-            type="button" class="button" value="0" onclick="setvalue('k_h2', 0);"><input type="button" class="button"
-            value="31" onclick="setvalue('k_h2', 31);"></td>
+        <td><input type="number" class="number" id="d-HP" value="252" min="0" max="999"><input type="button"
+            class="button" value="0" onclick="setvalue('d-HP', 0);"><input type="button" class="button" value="252"
+            onclick="setvalue('d-HP', 252);"></td>
+        <td colspan="3">個体値：<input type="number" class="number" id="k-HP" value="31" min="0" max="31"><input
+            type="button" class="button" value="0" onclick="setvalue('k-HP', 0);"><input type="button" class="button"
+            value="31" onclick="setvalue('k-HP', 31);"></td>
       </tr>
       <tr>
         <td rowspan="2" align="center">
@@ -445,12 +447,12 @@
       </tr>
       <tr>
         <td>努力値：</td>
-        <td><input type="number" class="number" name="d_b2" value="252" min="-999" max="999"><input type="button"
-            class="button" value="0" onclick="setvalue('d_b2', 0);"><input type="button" class="button" value="252"
-            onclick="setvalue('d_b2', 252);"></td>
-        <td colspan="3">個体値：<input type="number" class="number" name="k_b2" value="31" min="0" max="31"><input
-            type="button" class="button" value="0" onclick="setvalue('k_b2', 0);"><input type="button" class="button"
-            value="31" onclick="setvalue('k_b2', 31);"></td>
+        <td><input type="number" class="number" id="d-defense" value="252" min="0" max="999"><input type="button"
+            class="button" value="0" onclick="setvalue('d-defense', 0);"><input type="button" class="button" value="252"
+            onclick="setvalue('d-defense', 252);"></td>
+        <td colspan="3">個体値：<input type="number" class="number" id="k-defense" value="31" min="0" max="31"><input
+            type="button" class="button" value="0" onclick="setvalue('k-defense', 0);"><input type="button" class="button"
+            value="31" onclick="setvalue('k-defense', 31);"></td>
       </tr>
     </table>
 

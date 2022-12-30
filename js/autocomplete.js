@@ -25,8 +25,8 @@ $(() => {
       // 選択された候補をテキストボックスのvalueにセットする
       $('#pokename_1').val(ui.item.value);
 
-      // 候補が選択されたらsetPokemon関数を呼び出す
-      setPokemon('pokename_1');
+      // 候補が選択されたら攻撃を計算
+      set_realvalue("real-value-attack");
     }
   });
 })
@@ -58,8 +58,9 @@ $(() => {
       // 選択された候補をテキストボックスのvalueにセットする
       $('#pokename_2').val(ui.item.value);
 
-      //候補が選択されたらsetPokemon関数を呼び出す
-      setPokemon('pokename_2');
+      //候補が選択されたらHPと防御を計算
+      set_realvalue("real-value-HP");
+      set_realvalue("real-value-defense");
     }
   });
 })

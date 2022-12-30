@@ -709,7 +709,7 @@ const pokemonAll = {
     {
       "paldea_no": "11",
       "id": "n916",
-      "name": "パフュートン♂",
+      "name": "パフュートン ♂",
       "types": [
         "ノーマル"
       ],
@@ -778,7 +778,7 @@ const pokemonAll = {
     {
       "paldea_no": "11",
       "id": "n916f",
-      "name": "パフュートン♀",
+      "name": "パフュートン ♀",
       "types": [
         "ノーマル"
       ],
@@ -24617,7 +24617,7 @@ const pokemonAll = {
     {
       "paldea_no": "241",
       "id": "n876f",
-      "name": "イエッサン♀",
+      "name": "イエッサン ♀",
       "types": [
         "エスパー",
         "ノーマル"
@@ -24695,7 +24695,7 @@ const pokemonAll = {
     {
       "paldea_no": "241",
       "id": "n876",
-      "name": "イエッサン♂",
+      "name": "イエッサン ♂",
       "types": [
         "エスパー",
         "ノーマル"

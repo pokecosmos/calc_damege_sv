@@ -34,13 +34,13 @@
     <table id="ModeSwitch" border="1" height="60">
       <tr>
         <td id="SingleBattleButton" width="280">
-          <input type="radio" class="radio" name="BattleMode" id="SingleBattle" value="1" checked><label
-            for="SingleBattle">シングルバトル、ダブルバトル(単体攻撃)
+          <input type="radio" class="radio" name="BattleMode" id="SingleBattle" value="1" checked>
+          <label for="SingleBattle">シングルバトル、ダブルバトル(単体攻撃)</label>
         </td>
-        </label>
+        
         <td id="DoubleBattleButton" width="210">
-          <input type="radio" class="radio" name="BattleMode" id="DoubleBattle" value="2"><label
-            for="DoubleBattle">ダブルバトル(複数攻撃)</label>
+          <input type="radio" class="radio" name="BattleMode" id="DoubleBattle" value="2">
+          <label for="DoubleBattle">ダブルバトル(複数攻撃)</label>
         </td>
       </tr>
     </table>
@@ -114,7 +114,7 @@
         <td colspan="3"><input type="button" value="技名選択" class="waza"> <select name="waza"  id="select_waza_a1" size="1" onChange="waza_iryokuhenka();">
             <option value="0" selected="selected">--</option>
           </select>
-          <label id="waza_iryoku_option"></div>
+          <label id="waza_iryoku_option"></label><label id="waza_iryoku_option2"></label>
         </td>
       </tr>
       </tr>
@@ -124,12 +124,12 @@
             <table border="0" id="acSwitch">
               <tr>
                 <td>
-                  <input type="radio" class="radio" name="ac_button" id="buturi" value="1" checked onclick="radio_buturi()"><label
-                    for="buturi">物理</label>
+                  <input type="radio" class="radio" name="ac_button" id="buturi" value="1" checked onclick="radio_buturi()">
+                  <label for="buturi">物理</label>
                 </td>
                 <td>
-                  <input type="radio" class="radio" name="ac_button" id="tokusyu" value="0" required="required" onclick="radio_tokusyu()"><label
-                    for="tokusyu">特殊</label>
+                  <input type="radio" class="radio" name="ac_button" id="tokusyu" value="0" required="required" onclick="radio_tokusyu()">
+                  <label for="tokusyu">特殊</label>
                 </td>
               </tr>
             </table>
@@ -481,13 +481,13 @@
       <tr>
         <td>
           <p class="p15">
-          <table border="0" id="syousai_2">
-            <tr>
-              <td><input type="button" value="詳細設定を表示" class="jyotai" onclick="syousai_table2()"></td>
-              <td><input class="check" type="checkbox">特性なし</td>
-              <td colspan="2"><input class="check" type="checkbox">リフレクター/オーロラベール</td>
-            </tr>
-          </table>
+            <table border="0" id="syousai_2">
+              <tr>
+                <td><input type="button" value="詳細設定を表示" class="jyotai" onclick="syousai_table2()"></td>
+                <td><input class="check" type="checkbox">特性なし</td>
+                <td colspan="2"><input class="check" type="checkbox">リフレクター/オーロラベール</td>
+              </tr>
+            </table>
           </p>
         </td>
       </tr>

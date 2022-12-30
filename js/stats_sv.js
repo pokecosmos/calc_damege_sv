@@ -510,37 +510,29 @@ waza_iryokuhenka_add2 = (txt) => {
   
   //チェックボックス2個の技
   //左側のチェックボックスの反応範囲がおかしいバグがある。チェックボックス1個側も変。ラジオボタンも変。
-  var checkbox = document.createElement('input');
-  checkbox.type = 'checkbox';
-  checkbox.class = 'check';
-  checkbox.id = 'waza_o1';
-  //checkbox.name = 'interest';
-  //checkbox.value = 'car';
-  
-  var label = document.createElement('label')
-  label.id = 'waza_o2';
-  
-  label.appendChild(document.createTextNode('雨 必中'));
-  
+  var checkbox1 = document.createElement('input');
+  checkbox1.type = 'checkbox';
+  checkbox1.class = 'check';
+  checkbox1.id = 'waza_o1';
+  var label1 = document.createElement('label')
+  label1.id = 'waza_o2';
+  label1.appendChild(checkbox1);
+  label1.appendChild(document.createTextNode('雨 必中'));
   var container = document.getElementById('waza_iryoku_option');
-  container.appendChild(checkbox);
-  container.appendChild(label);
+  container.appendChild(label1);
   
-  var checkbox = document.createElement('input');
-  checkbox.type = 'checkbox';
-  checkbox.class = 'check';
-  checkbox.id = 'waza_o3';
-  //checkbox.name = 'interest';
-  //checkbox.value = 'car';
-  
-  var label = document.createElement('label')
-  label.id = 'waza_o4';
-  label.appendChild(document.createTextNode('晴れ 命中率50'));
-  
-  var container = document.getElementById('waza_iryoku_option');
-  container.appendChild(checkbox);
-  container.appendChild(label);
+  var checkbox2 = document.createElement('input');
+  checkbox2.type = 'checkbox';
+  checkbox2.class = 'check';
+  checkbox2.id = 'waza_o3';
+  var label2 = document.createElement('label')
+  label2.id = 'waza_o4';
+  label2.appendChild(checkbox2);
+  label2.appendChild(document.createTextNode('晴れ 命中率50'));
+  var container2 = document.getElementById('waza_iryoku_option2');
+  container2.appendChild(label2);
 }
+
 waza_iryokuhenka_add3 = (txt) => {
   
   //チェックボックスなし
@@ -585,16 +577,16 @@ waza_iryokuhenka_add4 = (txt) => {
   document.body.appendChild(input_radio1);
   
   
-  var label0 = document.createElement('label')
-  var label1 = document.createElement('label')
-  label0.id = 'waza_o2';
-  label1.id = 'waza_o4';
-  label0.appendChild(document.createTextNode('1回'));
-  label1.appendChild(document.createTextNode('2回'));
+  var label0 = document.createElement("label")
+  var label1 = document.createElement("label")
+  label0.id = "waza_o2";
+  label1.id = "waza_o4";
+  label0.appendChild(input_radio0);
+  label1.appendChild(input_radio1);
+  label0.appendChild(document.createTextNode("1回"));
+  label1.appendChild(document.createTextNode("2回"));
   
-  var container = document.getElementById('waza_iryoku_option');
-  container.appendChild(input_radio0);
+  var container = document.getElementById("waza_iryoku_option");
   container.appendChild(label0);
-  container.appendChild(input_radio1);
   container.appendChild(label1);
 }

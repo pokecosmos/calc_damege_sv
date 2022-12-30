@@ -241,8 +241,9 @@ function syousai_check_add(newCell,n1,n2){
   var label = document.createElement("label");
   var checkbox = document.createElement('input');
   checkbox.type = 'checkbox';
-  checkbox.class = 'check';
+  checkbox.classList.add("check");
   checkbox.id = n2;
+  label.classList.add("chk");
   label.appendChild(checkbox);
   label.appendChild(document.createTextNode(n1));
   newCell.appendChild(label);

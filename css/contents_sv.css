@@ -149,6 +149,9 @@ input.mega{
 	height: 26px;
 	visibility: hidden;
 }
+label.chk:hover {
+	background-color: #ffcccc;
+ }
 
 
 /*-- スマホ版非表示設定  --*/

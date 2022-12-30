@@ -78,7 +78,7 @@
                   type="button" class="button" value="100" onclick="setvalue('L0', 100);">
               </td>
               <td>タイプ：<input value="--" class="type1"> <input value="--" class="type1"></td>
-              <td><input class="check" type="checkbox" id="tera_chk"><label for="tera_chk">テラスタル</label>：<select name="Terastal_p1" class="type2" size="1">
+              <td><label class="chk"><input class="check" type="checkbox" id="tera_chk">テラスタル</label>：<select name="Terastal_p1" class="type2" size="1">
                   <option value="0" selected="selected">--</option>
                   <option value="1">ノーマル</option>
                   <option value="2">かくとう</option>
@@ -124,12 +124,12 @@
             <table border="0" id="acSwitch">
               <tr>
                 <td>
-                  <input type="radio" class="radio" name="ac_button" id="buturi" value="1" checked onclick="radio_buturi()">
-                  <label for="buturi">物理</label>
+                  <label class="chk"><input type="radio" class="radio" name="ac_button" id="buturi" value="1" checked onclick="radio_buturi()">
+                  物理</label>
                 </td>
                 <td>
-                  <input type="radio" class="radio" name="ac_button" id="tokusyu" value="0" required="required" onclick="radio_tokusyu()">
-                  <label for="tokusyu">特殊</label>
+                  <label class="chk"><input type="radio" class="radio" name="ac_button" id="tokusyu" value="0" required="required" onclick="radio_tokusyu()">
+                  特殊</label>
                 </td>
               </tr>
             </table>
@@ -285,9 +285,9 @@
               <td>
                 <input type="button" value="詳細設定を表示" class="jyotai" onclick="syousai_table()">
               </td>
-              <td><input class="check" type="checkbox" id="tokuseinasi_a"><label for="tokuseinasi_a">特性なし</label></td>
-              <td><input class="check" type="checkbox" id="tedasuke"><label for="tedasuke">てだすけ</label></td>
-              <td><input class="check" type="checkbox" id="yakedo"><label for="yakedo">やけど</label></td>
+              <td><label class="chk"><input class="check" type="checkbox" id="s1_tokuseinasi">特性なし</label></td>
+              <td><label class="chk"><input class="check" type="checkbox" id="s1_tedasuke">てだすけ</label></td>
+              <td><label class="chk"><input class="check" type="checkbox" id="s1_yakedo">やけど</label></td>
             </tr>
           </table>
           </p>
@@ -343,7 +343,7 @@
                   type="button" class="button" value="100" onclick="setvalue('L1', 100);">
               </td>
               <td>タイプ：<input value="--" class="type1"> <input value="--" class="type1"></td>
-              <td><input class="check" type="checkbox" class="type2">テラスタル：<select name="Terastal_p2" size="1">
+              <td><label class="chk"><input class="check" type="checkbox" class="type2">テラスタル</label>：<select name="Terastal_p2" size="1">
                   <option value="0" selected="selected">--</option>
                   <option value="1">ノーマル</option>
                   <option value="2">かくとう</option>
@@ -376,7 +376,7 @@
         <td align="center">
           <p class="p10">ランク</p>
         </td>
-        <td colspan="2"><label id=ac_4>防御</label>R：<select name="defense" size="1">
+        <td colspan="2"><label id="ac_4">防御</label>R：<select name="defense" size="1">
             <option value="6">+6</option>
             <option value="5">+5</option>
             <option value="4">+4</option>
@@ -418,7 +418,7 @@
         <td>実数値：</td>
         <td><input type="number" class="number" value="175" min="1" max="999"><input type="button" class="updown"
             value="▲" onclick=""><input type="button" class="updown" value="▼" onclick=""></td>
-        <td colspan="4"><input class="check" type="checkbox" id="hp_chk"><label for="hp_chk">残りHP指定：</label><input type="number" class="number" value="" min="1"
+        <td colspan="4"><label class="chk"><input class="check" type="checkbox" id="hp_chk">残りHP指定</label>：<input type="number" class="number" value="" min="1"
             max="999"><input type="button" class="updown" value="▲" onclick=""><input type="button" class="updown"
             value="▼" onclick=""></td>
       </tr>
@@ -484,8 +484,8 @@
             <table border="0" id="syousai_2">
               <tr>
                 <td><input type="button" value="詳細設定を表示" class="jyotai" onclick="syousai_table2()"></td>
-                <td><input class="check" type="checkbox" id="tokuseinasi_b"><label for="tokuseinasi_b">特性なし</label></td>
-                <td colspan="2"><input class="check" type="checkbox" id="kabe"><label for="kabe">リフレクター/オーロラベール</label></td>
+                <td><label class="chk"><input class="check" type="checkbox" id="s2_tokuseinasi">特性なし</label></td>
+                <td colspan="2"><label class="chk"><input class="check" type="checkbox" id="s2_kabe">リフレクター/オーロラベール</label></td>
               </tr>
             </table>
           </p>
@@ -536,8 +536,8 @@
         <td align="center">
           <p class="p19">その他</p>
         </td>
-        <td><input class="check" type="checkbox" id="jyuryoku"><label for="jyuryoku">重力</label></td>
-        <td><input class="check" type="checkbox" id="wanda"><label for="wanda">ワンダールーム</label></td>
+        <td><label class="chk"><input class="check" type="checkbox" id="jyuryoku">重力</label></td>
+        <td><label class="chk"><input class="check" type="checkbox" id="wanda">ワンダールーム</label></td>
       </tr>
     </table>
 
